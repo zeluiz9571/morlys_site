@@ -37,6 +37,61 @@ list-style-type: none;
 margin-right: 70px;
 margin-left: 10px;
 }
+.titulo{
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+}
 section{
     background-color: rgba(244, 244, 244, 1);
+}
+.container{
+    margin-left: 60px;
+    margin-right: 60px;
+    display: grid;
+    grid-template-rows: 35px 60px 120px 60px 42px 42px;
+    grid-template-areas: 
+    "img img img star"
+    "img img img valor"
+    "img img img descricao"
+    "img img img descricao"
+    "img img img final"
+    "espaço espaço espaço adicionar";
+    gap: 3%;
+    background-color: rgba(244, 244, 244, 1);
+}
+#contentimg{
+grid-area: img;
+background-color: blueviolet;
+}
+#stars{
+grid-area: star;
+background-color: rgb(226, 98, 43);
+}
+#valor{
+grid-area: valor;
+background-color: rgb(31, 234, 163);
+}
+#descricao{
+ grid-area: descricao;
+background-color: rgba(217, 217, 217, 1);
+}
+#botaofinal{
+grid-area: final;
+background-color: rgba(217, 217, 217, 1);
+text-align: center;
+
+}
+#botaofinal a{
+ text-decoration: none;
+ color: black;
+}
+#botaoadd{
+grid-area: adicionar;
+background-color: rgba(217, 217, 217, 1);
+text-align: center;
+}
+#botaoadd a{
+text-decoration: none;
+color: black;
 }
