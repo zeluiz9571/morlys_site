@@ -19,6 +19,8 @@ border-width: 0px 0px 2px 0px;
 border-color: rgba(0, 0, 0, 0.41);
 height: 50px;
 justify-content: center;
+
+
 }
  .subnavbar li{
 float: left;
@@ -62,7 +64,7 @@ section{
 }
 #contentimg{
 grid-area: img;
-background-color: blueviolet;
+background-color: rgba(217, 217, 217, 1);
 }
 #stars{
 grid-area: star;
@@ -80,18 +82,24 @@ background-color: rgba(217, 217, 217, 1);
 grid-area: final;
 background-color: rgba(217, 217, 217, 1);
 text-align: center;
-
+padding: 12px;
 }
 #botaofinal a{
  text-decoration: none;
  color: black;
+ text-align: center;
+ 
 }
 #botaoadd{
 grid-area: adicionar;
 background-color: rgba(217, 217, 217, 1);
 text-align: center;
+padding: 12px;
 }
 #botaoadd a{
 text-decoration: none;
 color: black;
+}
+.titulo1{
+    margin-left: 60px;
 }
