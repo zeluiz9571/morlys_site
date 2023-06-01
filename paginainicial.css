@@ -22,7 +22,7 @@ justify-content: center;
 }
  .subnavbar li{
 float: left;
-padding: 0px 60px;
+padding: 0px 40px;
 } 
 .subnavbar li a{
 display: block;
@@ -39,4 +39,94 @@ margin-left: 10px;
 }
 section{
     background-color: rgba(244, 244, 244, 1);
+}
+.Banner{
+    margin: 100px;
+    margin-top: 100px;
+    margin-left: 60px;
+    height: 200px;
+    width: 1120px;
+    background-color: rgb(170, 170, 170);
+    float: left;
+}
+.Produto1{
+    margin: 100px;
+    margin-top: 100px;
+    margin-left: 70px;
+    height: 250px;
+    width: 250px; 
+    background-color: rgb(180, 180, 180);
+    float: left;
+}
+.Produto2{
+    margin: 100px;
+    margin-top: 100px;
+    margin-left: 70px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(180, 180, 180);
+    float: left;
+}
+.Produto3{
+    margin: 100px;
+    margin-top: 100px;
+    margin-left: 70px;
+    height: 250px;
+    width: 250px;
+    background-color: rgba(180, 180, 180);
+    float: left;
+}
+.Produto4{
+    margin: 100px;
+    margin-top: 100px;
+    margin-left: 70px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(180, 180, 180);
+    float: left;
+}
+.Produto5{
+    margin: 100px;
+    margin-top: 100px;
+    margin-left: 70px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(180, 180, 180);
+    float: left;
+}
+.Produto6{
+    margin: 100px;
+    margin-top: 100px;
+    margin-left: 70px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(180, 180, 180);
+    float: left;
+}
+.Produto7{
+    margin: 100px;
+    margin-top: 100px;
+    margin-left: 70px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(180, 180, 180);
+    float: left;
+}
+.Produto8{
+    margin: 100px;
+    margin-top: 100px;
+    margin-left: 70px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(180, 180, 180);
+    float: left;
+}
+.Produto9{
+    margin: 100px;
+    margin-top: 100px;
+    margin-left: 70px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(180, 180, 180);
+    float: left;
 }
