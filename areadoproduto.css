@@ -22,7 +22,7 @@ justify-content: center;
 }
  .subnavbar li{
 float: left;
-padding: 0px 60px;
+padding: 0px 30px;
 } 
 .subnavbar li a{
 display: block;
@@ -34,9 +34,124 @@ text-decoration: none;
 }
 .subnavbar ul{
 list-style-type: none;
-margin-right: 70px;
+margin-right: 37px;
 margin-left: 10px;
+}
+.titulo{
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
 }
 section{
     background-color: rgba(244, 244, 244, 1);
 }
+.container{
+    margin-left: 60px;
+    margin-right: 60px;
+    display: grid;
+    grid-template-rows: 35px 60px 120px 60px 42px 42px;
+    grid-template-areas: 
+    "img img img star"
+    "img img img valor"
+    "img img img descricao"
+    "img img img descricao"
+    "img img img final"
+    "espaço espaço espaço adicionar";
+    gap: 3%;
+    background-color: rgba(244, 244, 244, 1);
+}
+#contentimg{
+grid-area: img;
+background-color: rgba(217, 217, 217, 1);
+}
+#stars{
+grid-area: star;
+background-color: rgb(226, 98, 43);
+}
+#valor{
+grid-area: valor;
+background-color: rgb(31, 234, 163);
+}
+#descricao{
+ grid-area: descricao;
+background-color: rgba(217, 217, 217, 1);
+}
+#botaofinal{
+grid-area: final;
+background-color: rgba(217, 217, 217, 1);
+text-align: center;
+padding: 12px;
+}
+#botaofinal a{
+ text-decoration: none;
+ color: black;
+ text-align: center;
+ 
+}
+#botaoadd{
+grid-area: adicionar;
+background-color: rgba(217, 217, 217, 1);
+text-align: center;
+padding: 12px;
+}
+#botaoadd a{
+text-decoration: none;
+color: black;
+}
+.titulo1{
+    margin-top: 45px;
+    margin-left: 60px;
+}
+#img1{
+grid-area: img1;
+background-color: rgba(217, 217, 217, 1);
+    }
+#timg1{
+grid-area: timg1;
+background-color: rgb(226, 98, 43);
+}
+#img2{
+grid-area: img2;
+background-color: rgba(217, 217, 217, 1);
+    }
+#timg2{
+grid-area: timg2;
+background-color: rgb(226, 98, 43);
+}
+#img3{
+grid-area: img3;
+background-color: rgba(217, 217, 217, 1);
+}
+#timg3{
+grid-area: timg3;
+background-color: rgb(226, 98, 43);
+}
+.container2{
+margin-left: 60px;
+margin-right: 60px;
+display: grid;
+grid-template-rows: 330px 50px;
+grid-template-areas: 
+"img1 img2 img3"
+"timg1 timg2 timg3";
+gap: 7%;
+background-color: rgba(244, 244, 244, 1);
+}
+.botton{
+padding: 5px;
+font-size: 27px;
+text-align: center;
+width: 180px;
+height: 40px;
+background-color: black;
+color: white;
+border-radius: 15px;
+margin-top: 30px;
+margin-left: 50%;
+transform: translate(-50%);
+}
+.botton a{
+    text-decoration: none;
+    color: white
+}
+
