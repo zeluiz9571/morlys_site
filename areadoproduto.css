@@ -19,12 +19,10 @@ border-width: 0px 0px 2px 0px;
 border-color: rgba(0, 0, 0, 0.41);
 height: 50px;
 justify-content: center;
-
-
 }
  .subnavbar li{
 float: left;
-padding: 0px 60px;
+padding: 0px 30px;
 } 
 .subnavbar li a{
 display: block;
@@ -36,7 +34,7 @@ text-decoration: none;
 }
 .subnavbar ul{
 list-style-type: none;
-margin-right: 70px;
+margin-right: 37px;
 margin-left: 10px;
 }
 .titulo{
@@ -101,5 +99,9 @@ text-decoration: none;
 color: black;
 }
 .titulo1{
+    margin-top: 45px;
     margin-left: 60px;
+}
+.titulo1 hr{
+    height: 20px;
 }
