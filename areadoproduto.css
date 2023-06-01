@@ -102,6 +102,56 @@ color: black;
     margin-top: 45px;
     margin-left: 60px;
 }
-.titulo1 hr{
-    height: 20px;
+#img1{
+grid-area: img1;
+background-color: rgba(217, 217, 217, 1);
+    }
+#timg1{
+grid-area: timg1;
+background-color: rgb(226, 98, 43);
 }
+#img2{
+grid-area: img2;
+background-color: rgba(217, 217, 217, 1);
+    }
+#timg2{
+grid-area: timg2;
+background-color: rgb(226, 98, 43);
+}
+#img3{
+grid-area: img3;
+background-color: rgba(217, 217, 217, 1);
+}
+#timg3{
+grid-area: timg3;
+background-color: rgb(226, 98, 43);
+}
+.container2{
+margin-left: 60px;
+margin-right: 60px;
+display: grid;
+grid-template-rows: 330px 50px;
+grid-template-areas: 
+"img1 img2 img3"
+"timg1 timg2 timg3";
+gap: 7%;
+background-color: rgba(244, 244, 244, 1);
+}
+.botton{
+padding: 5px;
+font-size: 27px;
+text-align: center;
+width: 180px;
+height: 40px;
+background-color: black;
+color: white;
+border-radius: 15px;
+margin-top: 30px;
+margin-left: 50%;
+transform: translate(-50%);
+}
+.botton a{
+    text-decoration: none;
+    color: white
+}
+
