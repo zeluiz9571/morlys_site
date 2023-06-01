@@ -4,6 +4,16 @@ margin: 0;
 padding:0;
 box-sizing: border-box;
 }
+section{
+    height: 2200px;
+}
+footer{
+    height: 100px;
+    text-align: center;
+}
+footer p{
+    padding: 40px;
+}
 .navbarsup{
 text-align: center;
 padding: 20px;
@@ -154,4 +164,61 @@ transform: translate(-50%);
     text-decoration: none;
     color: white
 }
+#star1{
+grid-area: star1;
+background-color: antiquewhite;
+}
+#star2{
+grid-area: star2;
+background-color: beige;
+}
+#star3{
+grid-area: star3;
+background-color: blue;
+}
+#star4{
+grid-area: star4;
+background-color: blanchedalmond;
+}
+#star5{
+grid-area: star5;
+background-color: blanchedalmond;
+}
+#comentario{
+grid-area: comentario;
+background-color: blanchedalmond;
+}
+
+.container3{
+    margin-left: 60px;
+    margin-right: 60px;
+    display: grid;
+    grid-template-columns: 400px 180px 400px;
+
+    grid-template-rows: 40px 40px 40px 40px 40px 100px 40px 40px 200px;
+    grid-template-areas: 
+    "star1 nada comentario"
+    "star2 nada comentario"
+    "star3 nada comentario"
+    "star4 nada comentario"
+    "star5 nada comentario"
+    "a a comentario"
+    "tituloform tituloform comentario"
+    "estrelas estrelas comentario"
+    "texto texto comentario";
+    gap: 7%;
+}
+#tituloof{
+    grid-area: tituloform;
+    background-color: blue;
+}
+#estrelas{
+    grid-area: estrelas;
+    background-color: azure;
+}
+#seutexto{
+    grid-area: texto;
+    background-color: bisque;
+}
+
 
