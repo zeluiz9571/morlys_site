@@ -74,48 +74,47 @@
         margin-left: 200px;
     }
     
- .lupa {
-    height: 20px;
-    width: 30px;
-    /* margin-left: 1135px;
-    margin-bottom: 0px;
-    margin-top: 0px; */
-    position: fixed;
-    top: 25px;
-    right: 300px;
- }
- .class{
-    height: 20px;
-    width: 20px;
-    margin-left: 1100px;
-    margin-bottom: 0px;
-    margin-top: 0px;
- }  
+    .lupa {
+        height: 20px;
+        width: 30px;
+        /* margin-left: 1135px;
+        margin-bottom: 0px;
+        margin-top: 0px; */
+        position: fixed;
+        top: 25px;
+        right: 300px;
+    }
+    .class{
+        height: 20px;
+        width: 20px;
+        margin-left: 1100px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }  
 
- .perfil{
-    height: 20px;
-    width: 20px;
-    /* margin-left: 1135px;
-    margin-bottom: 0px;
-    margin-top: 0px; */
-    position: fixed;
-    top: 25px;
-    right: 220px;
- }
+    .perfil{
+        height: 20px;
+        width: 20px;
+        /* margin-left: 1135px;
+        margin-bottom: 0px;
+        margin-top: 0px; */
+        position: fixed;
+        top: 25px;
+        right: 220px;
+    }
 
- .sacola{
-    height: 20px;
-    width: 30px;
-    /* margin-left: 1135px;
-    margin-bottom: 0px;
-    margin-top: 0px; */
-    position: fixed;
-    top: 25px;
-    right: 260px;
- }
+    .sacola{
+        height: 20px;
+        width: 30px;
+        /* margin-left: 1135px;
+        margin-bottom: 0px;
+        margin-top: 0px; */
+        position: fixed;
+        top: 25px;
+        right: 260px;
+    }
 
- .item {
-    display: flexbox;
-    flex-direction: column;
-    justify-content: center;
-  }
+    .a {
+       right: 0;
+       margin-left: 500px;
+    }
