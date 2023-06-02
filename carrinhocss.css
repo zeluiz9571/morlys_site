@@ -5,17 +5,6 @@ padding:0;
 box-sizing: border-box;
 }
 
-section{
-    height: 2200px;
-}
-footer{
-    height: 100px;
-    text-align: center;
-}
-footer p{
-    padding: 40px;
-}
-
 .navbarsup{
 text-align: center;
 padding: 20px;
@@ -68,4 +57,12 @@ margin-left: 10px;
     }
 .product{
 
+}
+
+footer{
+    height: 100px;
+    text-align: center;
+}
+footer p{
+    padding: 40px;
 }
