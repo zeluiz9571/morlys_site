@@ -4,6 +4,7 @@ margin: 0;
 padding:0;
 box-sizing: border-box;
 }
+
 .navbarsup{
 text-align: center;
 padding: 20px;
@@ -12,6 +13,7 @@ border-style: solid;
 border-width: 0px 0px 2px 0px;
 border-color: rgba(223, 220, 220, 0.91); 
 }
+
 .subnavbar{
 display: flex;
 border-style: solid;
@@ -20,10 +22,12 @@ border-color: rgba(0, 0, 0, 0.41);
 height: 50px;
 justify-content: center;
 }
+
  .subnavbar li{
 float: left;
 padding: 0px 60px;
 } 
+
 .subnavbar li a{
 display: block;
 color: black;
@@ -32,8 +36,34 @@ text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 }
+
 .subnavbar ul{
 list-style-type: none;
 margin-right: 70px;
 margin-left: 10px;
+}
+
+#botaofinal{
+    grid-area: final;
+    background-color: rgba(217, 217, 217, 1);
+    text-align: center;
+    padding: 12px;
+    }
+    #botaofinal a{
+     text-decoration: none;
+     color: black;
+     text-align: center;
+     
+    }
+.product{
+    height: 100px;
+    text-align: center;
+}
+
+footer{
+    height: 100px;
+    text-align: center;
+}
+footer p{
+    padding: 40px;
 }
