@@ -75,24 +75,49 @@
     }
     
  .lupa {
-    height: 30px;
-    width: 30px;
-    margin-left: 1100px;
+    height: 20px;
+    width: 20px;
+    /* margin-left: 1135px;
     margin-bottom: 0px;
-    margin-top: -30px;
+    margin-top: 0px; */
+    position: fixed;
+    top: 25px;
+    right: 300px;
  }
  .class{
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     margin-left: 1100px;
     margin-bottom: 0px;
-    margin-top: -40px;
+    margin-top: 0px;
  }  
 
  .perfil{
-    height: 30px;
-    width: 30px;
-    margin-left: 1135px;
+    height: 20px;
+    width: 20px;
+    /* margin-left: 1135px;
     margin-bottom: 0px;
-    margin-top: -40px;
+    margin-top: 0px; */
+    position: fixed;
+    top: 25px;
+    right: 220px;
  }
+
+ .sacola{
+    height: 20px;
+    width: 20px;
+    /* margin-left: 1135px;
+    margin-bottom: 0px;
+    margin-top: 0px; */
+    position: fixed;
+    top: 25px;
+    right: 260px;
+ }
+
+ .container {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    top: 20px;
+    right: 0;
+  }
