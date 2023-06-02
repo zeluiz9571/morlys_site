@@ -1,0 +1,54 @@
+style>
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  form {
+    max-width: 5px;
+    margin: 10 auto;
+    /* Restante do estilo do formulário aqui */
+  }
+
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 4px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+
+  label {
+    display: ruby-base;
+    margin-bottom: 10px;
+    font-weight: bolder;
+  }
+
+  input[type="text"],
+  select {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  input[type="submit"] {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 148px;
+    border: 1px solid #000000;    
+    border-radius: 3px; 
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
