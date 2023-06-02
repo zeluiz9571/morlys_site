@@ -55,10 +55,26 @@ margin-left: 10px;
      text-align: center;
      
     }
-.product{
-    height: 100px;
-    text-align: center;
-}
+
+    #botaoadd{
+        grid-area: adicionar;
+        background-color: rgba(217, 217, 217, 1);
+        text-align: center;
+        padding: 12px;
+        }
+        #botaoadd a{
+        text-decoration: none;
+        color: black;
+        }
+
+        #botaoadd1{
+            grid-area: adicionar;
+            background-color: rgba(217, 217, 217, 1);
+            text-align: center;
+            padding: 12px;
+            margin-left:"100px";
+            }
+           
 
 footer{
     height: 100px;
