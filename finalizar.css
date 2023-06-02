@@ -80,7 +80,7 @@
         /* margin-left: 1135px;
         margin-bottom: 0px;
         margin-top: 0px; */
-        position: fixed;
+        position: absolute;
         top: 25px;
         right: 300px;
     }
@@ -98,7 +98,7 @@
         /* margin-left: 1135px;
         margin-bottom: 0px;
         margin-top: 0px; */
-        position: fixed;
+        position: absolute;
         top: 25px;
         right: 220px;
     }
@@ -109,12 +109,29 @@
         /* margin-left: 1135px;
         margin-bottom: 0px;
         margin-top: 0px; */
-        position: fixed;
+        position: absolute;
         top: 25px;
         right: 260px;
     }
 
-    .a {
-       right: 0;
-       margin-left: 500px;
+    .pedido {
+        position: relative;
+        top: 10px;
+        left: 325px;
     }
+
+    .produtos {
+        position: relative;
+        bottom: 17.5px;
+        left: 65%;
+    }
+
+    .linha-vertical {
+        width: 2px; /* Define a largura da linha */
+        height: 500px; /* Define a altura da linha como 100% do elemento pai */
+        background-color: rgb(186, 186, 186); /* Define a cor da linha */
+        position: absolute; /* Define a posição absoluta para que possamos mover a linha */
+        left: 50%; /* Move a linha para o meio horizontal */
+        transform: translateX(-50%); /* Ajusta a posição da linha no meio */
+      }
+      
