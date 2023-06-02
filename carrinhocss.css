@@ -56,7 +56,8 @@ margin-left: 10px;
      
     }
 .product{
-
+    height: 100px;
+    text-align: center;
 }
 
 footer{
