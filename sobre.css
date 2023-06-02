@@ -45,7 +45,7 @@
     }
 
     .linha1{
-        border-bottom: 3px solid rgb(107, 107, 107);
+        border-bottom: 3px solid rgb(186, 186, 186);
         margin-top: 20px;
         margin: auto;
     }
@@ -76,7 +76,7 @@
     
  .lupa {
     height: 20px;
-    width: 20px;
+    width: 30px;
     /* margin-left: 1135px;
     margin-bottom: 0px;
     margin-top: 0px; */
@@ -105,7 +105,7 @@
 
  .sacola{
     height: 20px;
-    width: 20px;
+    width: 30px;
     /* margin-left: 1135px;
     margin-bottom: 0px;
     margin-top: 0px; */
