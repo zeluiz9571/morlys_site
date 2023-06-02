@@ -43,7 +43,7 @@ section{
 .Banner{
     margin: 100px;
     margin-top: 100px;
-    margin-left: 60px;
+    margin-left: 70px;
     height: 200px;
     width: 1120px;
     background-color: rgb(170, 170, 170);
@@ -51,7 +51,7 @@ section{
 }
 .Produto1{
     margin: 100px;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left: 70px;
     height: 250px;
     width: 250px; 
@@ -60,7 +60,7 @@ section{
 }
 .Produto2{
     margin: 100px;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left: 70px;
     height: 250px;
     width: 250px;
@@ -69,7 +69,7 @@ section{
 }
 .Produto3{
     margin: 100px;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left: 70px;
     height: 250px;
     width: 250px;
@@ -78,7 +78,7 @@ section{
 }
 .Produto4{
     margin: 100px;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left: 70px;
     height: 250px;
     width: 250px;
@@ -87,7 +87,7 @@ section{
 }
 .Produto5{
     margin: 100px;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left: 70px;
     height: 250px;
     width: 250px;
@@ -96,7 +96,7 @@ section{
 }
 .Produto6{
     margin: 100px;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left: 70px;
     height: 250px;
     width: 250px;
@@ -105,7 +105,7 @@ section{
 }
 .Produto7{
     margin: 100px;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left: 70px;
     height: 250px;
     width: 250px;
@@ -114,7 +114,7 @@ section{
 }
 .Produto8{
     margin: 100px;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left: 70px;
     height: 250px;
     width: 250px;
@@ -123,10 +123,82 @@ section{
 }
 .Produto9{
     margin: 100px;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left: 70px;
     height: 250px;
     width: 250px;
     background-color: rgb(180, 180, 180);
     float: left;
+}
+.Produto10{
+    margin: 100px;
+    margin-top: 90px;
+    margin-left: 70px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(180, 180, 180);
+    float: left;
+}
+.Produto11{
+    margin: 100px;
+    margin-top: 90px;
+    margin-left: 70px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(180, 180, 180);
+    float: left;
+}
+.Produto12{
+    margin: 100px;
+    margin-top: 90px;
+    margin-left: 70px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(180, 180, 180);
+    float: left;
+}
+.Produto13{
+    margin: 100px;
+    margin-top: 90px;
+    margin-left: 70px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(180, 180, 180);
+    float: left;
+}
+.VerMais1{
+    margin: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
+    height: 35px;
+    width: 70px;
+    background-color: rgb(255, 0, 0);
+    align-items: center;
+}
+.VerMais2{
+    margin: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
+    height: 35px;
+    width: 70px;
+    background-color: rgb(255, 251, 0);
+    align-items: center;
+}
+.VerMais3{
+    margin: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
+    height: 35px;
+    width: 70px;
+    background-color: rgb(0, 255, 38);
+    align-items: center;
+}
+.VerMais4{
+    margin: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
+    height: 35px;
+    width: 70px;
+    background-color: rgb(55, 0, 255);
+    align-items: center;
 }
