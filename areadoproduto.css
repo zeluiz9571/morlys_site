@@ -15,6 +15,7 @@ footer p{
     padding: 40px;
 }
 .navbarsup{
+font-family: 'Inter';
 text-align: center;
 padding: 20px;
 font-size: 27px;
@@ -23,6 +24,7 @@ border-width: 0px 0px 2px 0px;
 border-color: rgba(223, 220, 220, 0.91); 
 }
 .subnavbar{
+font-family: 'Inter';
 display: flex;
 border-style: solid;
 border-width: 0px 0px 2px 0px;
@@ -48,6 +50,7 @@ margin-right: 37px;
 margin-left: 10px;
 }
 .titulo{
+    font-family: 'Inter';
     padding: 25px;
     font-size: 20px;
     text-align: center;
@@ -56,8 +59,8 @@ section{
     background-color: rgba(244, 244, 244, 1);
 }
 .container{
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 120px;
+    margin-right: 120px;
     display: grid;
     grid-template-rows: 35px 60px 120px 60px 42px 42px;
     grid-template-areas: 
@@ -73,20 +76,53 @@ section{
 #contentimg{
 grid-area: img;
 background-color: rgba(217, 217, 217, 1);
+align-items: center;
+width: 500px;
+height: 400px;
+padding: 0px 60px;;
+}
+#contentimg img{
+width: 380px;
+height: 400px;
 }
 #stars{
+margin-left: 20px;
 grid-area: star;
-background-color: rgb(226, 98, 43);
+background-color: rgba(244, 244, 244, 1);
+}
+#stars img{
+width: 40px;
+height: 35px;
+}
+#stars li{
+float: left;
+list-style: none;
+}
+#stars p{
+margin-left: 10px;
+font-size: 25px;
+margin-top: 5px;
 }
 #valor{
+font-family: 'Inter';
+margin-left: 37px;
+margin-top: 12px;
 grid-area: valor;
-background-color: rgb(31, 234, 163);
+background-color: rgba(244, 244, 244, 1);
+}
+#valor #principal{
+font-size: 25px;
+}
+#valor #sub{
+font-size: 15px;
+margin-left: 50px;
 }
 #descricao{
  grid-area: descricao;
 background-color: rgba(217, 217, 217, 1);
 }
 #botaofinal{
+font-family: 'Inter';
 grid-area: final;
 background-color: rgba(217, 217, 217, 1);
 text-align: center;
@@ -103,42 +139,124 @@ grid-area: adicionar;
 background-color: rgba(217, 217, 217, 1);
 text-align: center;
 padding: 12px;
+font-family: 'Inter';
 }
 #botaoadd a{
 text-decoration: none;
 color: black;
 }
 .titulo1{
-    margin-top: 45px;
-    margin-left: 60px;
+font-family: 'Inter';
+margin-top: 45px;
+font-size: 21px;
+margin-left: 120px;
+ margin-right: 120px;
 }
 #img1{
 grid-area: img1;
 background-color: rgba(217, 217, 217, 1);
-    }
+width: 280px;
+padding: 17px;
+}
+#img1 img{
+width: 250px;
+height: 270px;
+}
 #timg1{
 grid-area: timg1;
-background-color: rgb(226, 98, 43);
+background-color: rgba(244, 244, 244, 1);
+width: 280px;
+}
+#timg1 ul img{
+width: 40px;
+}
+#timg1 li{
+float: left;
+list-style: none;
+margin-left: 10px;
+}
+#timg1 #p{
+font-size: 16px;
+font-family: 'Inter';
+}
+#timg1 #sp{
+font-size: 12px;
+font-family: 'Inter';
+}
+#timg1 #p a{
+text-decoration: none;
+color: black;
 }
 #img2{
 grid-area: img2;
 background-color: rgba(217, 217, 217, 1);
-    }
+width: 280px;
+padding: 17px;
+}
+#img2 img{
+width: 250px;
+height: 270px;
+}
 #timg2{
 grid-area: timg2;
-background-color: rgb(226, 98, 43);
+background-color: rgba(244, 244, 244, 1);
+width: 280px;
+}
+#timg2 ul img{
+width: 40px;
+}
+#timg2 li{
+float: left;
+list-style: none;
+margin-left: 10px;
+}
+#timg2 #p{
+font-size: 16px;
+font-family: 'Inter';
+}
+#timg2 #p a{
+text-decoration: none;
+color: black;
+}
+#timg2 #sp{
+font-size: 12px;
+font-family: 'Inter';
 }
 #img3{
 grid-area: img3;
 background-color: rgba(217, 217, 217, 1);
+width: 280px;
+padding: 17px;
 }
 #timg3{
 grid-area: timg3;
-background-color: rgb(226, 98, 43);
+background-color: rgba(244, 244, 244, 1);
+width: 280px;
+}
+#timg3 ul img{
+width: 40px;
+}
+#timg3 li{
+float: left;
+list-style: none;
+margin-left: 10px;
+text-decoration: none;
+}
+#timg3 #p{
+font-size: 16px;
+font-family: 'Inter';
+}
+#timg3 #p a{
+text-decoration: none;
+color: black;
+}
+#timg3 #sp{
+font-size: 12px;
+font-family: 'Inter';
 }
 .container2{
-margin-left: 60px;
-margin-right: 60px;
+margin-left: 120px;
+margin-right: 120px;
 display: grid;
 grid-template-rows: 330px 50px;
 grid-template-areas: 
@@ -148,11 +266,12 @@ gap: 7%;
 background-color: rgba(244, 244, 244, 1);
 }
 .botton{
+font-family: 'Inter';
 padding: 5px;
-font-size: 27px;
+font-size: 17px;
 text-align: center;
-width: 180px;
-height: 40px;
+width: 160px;
+height: 30px;
 background-color: black;
 color: white;
 border-radius: 15px;
@@ -161,37 +280,80 @@ margin-left: 50%;
 transform: translate(-50%);
 }
 .botton a{
-    text-decoration: none;
-    color: white
+text-decoration: none;
+color: white
 }
 #star1{
 grid-area: star1;
-background-color: antiquewhite;
+background-color: rgba(244, 244, 244, 1);
+}
+#star1 a{
+font-size: 20px;
+font-family: 'Inter';
+margin-left: 20px;
+}
+#star1 img{
+width: 45px;
+height: 40px;
 }
 #star2{
 grid-area: star2;
-background-color: beige;
+background-color: rgba(244, 244, 244, 1);
+}
+#star2 a{
+font-size: 20px;
+font-family: 'Inter';
+}
+#star2 img{
+width: 45px;
+height: 40px;
 }
 #star3{
 grid-area: star3;
-background-color: blue;
+background-color: rgba(244, 244, 244, 1);
+}
+#star3 img{
+width: 45px;
+height: 40px;
+}
+#star3 a{
+font-size: 20px;
+font-family: 'Inter';
 }
 #star4{
 grid-area: star4;
-background-color: blanchedalmond;
+background-color: rgba(244, 244, 244, 1);
+}
+#star4 img{
+width: 45px;
+height: 40px;
+}
+#star4 a{
+font-size: 20px;
+font-family: 'Inter';
 }
 #star5{
 grid-area: star5;
-background-color: blanchedalmond;
+background-color: rgba(244, 244, 244, 1);
+}
+#star5 img{
+width: 45px;
+height: 40px;
+}
+#star5 a{
+font-size: 20px;
+font-family: 'Inter';
 }
 #comentario{
 grid-area: comentario;
-background-color: blanchedalmond;
+background-color: rgba(217, 217, 217, 1);
+margin-right: 120px;
+width: 350px;
 }
 
 .container3{
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 120px;
+    margin-right: 120px;
     display: grid;
     grid-template-columns: 400px 180px 400px;
 
@@ -206,19 +368,88 @@ background-color: blanchedalmond;
     "tituloform tituloform comentario"
     "estrelas estrelas comentario"
     "texto texto comentario";
-    gap: 7%;
+    gap: 5%;
 }
 #tituloof{
+    font-family: 'Inter';
     grid-area: tituloform;
-    background-color: blue;
+    background-color: rgba(244, 244, 244, 1);
+    width: 400px;
+    border-style: solid;
+    border-width: 1.5px 0px 1.5px 0px;
+    border-color: rgba(0, 0, 0, 0.91); 
+    text-align: center;
+    padding-top: 2px;
 }
 #estrelas{
     grid-area: estrelas;
-    background-color: azure;
+    background-color: rgba(244, 244, 244, 1);
+    width: 400px;
 }
 #seutexto{
     grid-area: texto;
-    background-color: bisque;
+    background-color: rgba(244, 244, 244, 1);
+    width: 400px;
+    padding: 5px;
 }
+#seutexto textarea{
+    font-family: 'Inter';
+    background-color: rgba(217, 217, 217, 1);
+}
+#range{
+    width: 200px;
+    background-color: black;
+}
+#descricao h1{
+    font-family: 'Inter';
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+#descricao p{
+    font-family: 'Inter';
+    margin-top: 15px;
+    margin-left: 35px;
+    font-size: 13px;
+    text-align: justify;
+    max-width: 260px;
+    overflow: hidden;
+    white-space: wrap;
+}
+#estrelas img{
+width: 40px;
+height: 35px;
+}
+#estrelas{
+    padding-left: 100px;
+}
+#submit{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-family: 'Inter';
+    width: 70px;
+    cursor: pointer;
+}
+FORM{
+    margin-left: -450px;
+    margin-top: 520px;
+}
+.titulo2{
+    font-family: 'Inter';
+    font-size: 21px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+#lname{
+    width: 380px;
+    height: 200px;
+}
+#name{
+    width: 200px;
+
+}
+
+
 
 
