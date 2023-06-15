@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre | Morly's</title>
-    <link rel="stylesheet" type="text/css" href="sobre.css">
+    <title>Pesquisa | Morly's</title>
+    <link rel="stylesheet" type="text/css" href="pesquisa.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
 </head>
 <body style="background-color: #f8f4f4;">
     <h1 class="page-title"><strong>MORLY'S</strong></h1>
@@ -25,3 +26,19 @@
         <li><a href="">Corpo</a></li>
         <li><a href="">Sobre</a></li>
       </ul>
+      <input type="text" id="input1" class="input1"  placeholder="Pesquisa">
+      <div id="result"></div>
+
+      <script>
+        
+        const input = document.getElementById('input1');
+        
+        input.addEventListener('input', function() {
+            const value = this.value;
+            this.value = value.charAt(0).toUpperCase() + value.slice(1);
+        });
+    </script>
+</body>
+</html>
+      
+      

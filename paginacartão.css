@@ -1,0 +1,170 @@
+*
+{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+.navbarsup{
+text-align: center;
+padding: 20px;
+font-size: 27px;
+border-style: solid;
+border-width: 0px 0px 2px 0px;
+border-color: rgba(223, 220, 220, 0.91); 
+}
+.subnavbar{
+display: flex;
+border-style: solid;
+border-width: 0px 0px 2px 0px;
+border-color: rgba(0, 0, 0, 0.41);
+height: 50px;
+justify-content: center;
+}
+ .subnavbar li{
+float: left;
+padding: 0px 40px;
+} 
+.subnavbar li a{
+display: block;
+color: black;
+text-decoration: none;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.subnavbar ul{
+list-style-type: none;
+margin-right: 70px;
+margin-left: 10px;
+}
+section{
+    background-color: rgba(244, 244, 244, 1);
+}
+.Banner{
+    margin: 100px;
+    margin-top: 100px;
+    margin-left: 70px;
+    height: 200px;
+    width: 1120px;
+    background-color: rgb(170, 170, 170);
+    float: left;
+}
+
+.concluir{
+    margin-left: 50px;
+}
+
+.lupa {
+    height: 20px;
+    width: 30px;
+    /* margin-left: 1135px;
+    margin-bottom: 0px;
+    margin-top: 0px; */
+    position: fixed;
+    top: 25px;
+    right: 300px;
+ }
+ .class{
+    height: 20px;
+    width: 20px;
+    margin-left: 1100px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+ }  
+
+ .perfil{
+    height: 20px;
+    width: 20px;
+    /* margin-left: 1135px;
+    margin-bottom: 0px;
+    margin-top: 0px; */
+    position: fixed;
+    top: 25px;
+    right: 220px;
+ }
+
+ .sacola{
+    height: 20px;
+    width: 30px;
+    /* margin-left: 1135px;
+    margin-bottom: 0px;
+    margin-top: 0px; */
+    position: fixed;
+    top: 25px;
+    right: 260px;
+ }
+
+ .container {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    top: 20px;
+    right: 0;
+  }
+
+  /* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  } */
+
+  form {
+    max-width: 5px;
+    margin: 10 auto;
+    /* Restante do estilo do formulário aqui */
+  }
+
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 4px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+
+  label {
+    display: ruby-base;
+    margin-bottom: 10px;
+    font-weight: bolder;
+  }
+
+  input[type="text"],
+  select {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  input[type="submit"] {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 148px;
+    border: 1px solid #000000;    
+    border-radius: 3px; 
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  .cadastro{
+    align-items: center;
+    position: relative;
+    margin-left: 60px;
+  }
+
+  .numero{
+    margin-left: 60px;
+  }
+
+  .cartao{
+   justify-content: center;
+  }

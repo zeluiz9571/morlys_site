@@ -121,3 +121,23 @@
     top: 20px;
     right: 0;
   }
+
+  .input1 {
+   display: block;
+   margin: 50px auto 0;
+   border: none;
+   border-bottom: 1px solid black;
+   text-align: center;
+   font-size: 16px;
+   width: 300px;
+  }   
+
+  #result {
+   margin-top: 20px;
+}
+
+.input1:focus {
+   outline: none;
+   border-bottom-color: rgb(0, 0, 0);
+   transform: scale(1.1);
+}
