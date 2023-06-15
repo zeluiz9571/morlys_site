@@ -7,7 +7,14 @@
     <title>Pagina Principal</title>
 </head>
 <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-<body>
+<body style="background-color: #f8f4f4;">
+
+    <div class="conntainer">
+        <a href="pesquisa.html"><img src="lupa.png" alt="lupa" class="lupa"></a>
+        <a href=""><img src="perfil.png" alt="perfil" class="perfil"></a>
+        <a href="carrinho.html"><img src="sacola.png" alt="sacola" class="sacola"></a>
+        </div>
+        
     <header>
         <div class="navbarsup">
             <a>MORLY'S</a>
@@ -49,8 +56,8 @@
         <h1>DESCRIÇÃO</h1>
         <p>Um perfume floral gourmand envolvente e sofisticado, que de uma forma moderna e radiante transmite a elegância da flor de iris, a espinha dorsal da fragrância, que floresce desde a primeira até a última nota. Experimente o perfume la vie est belle da lancôme arrase por onde passar.</p>
         </div>
-        <div id="botaofinal"><a href="#">FINALIZAR COMPRA</a></div>
-        <div id="botaoadd"><a href="#">ADICIONAR AO CARRINHO</a></div>
+        <div id="botaofinal"><a href="#">COMPRAR</a></div>
+        <div id="botaoadd"><a href="#" id="adicionarCarrinho">ADICIONAR AO CARRINHO</a></div>
         </div>
         <br>
         <br>
@@ -190,6 +197,30 @@
             name.value = '';
             lname.value = '';
         });
+        document.addEventListener("DOMContentLoaded", function() {
+  var adicionarCarrinhoButton = document.getElementById("adicionarCarrinho");
+  adicionarCarrinhoButton.addEventListener("click", adicionarAoCarrinho);
+});
+
+function adicionarAoCarrinho() {
+  var produto = "LA VIE EST BELLE"; // Nome do produto
+  var quantidade = 1; // Quantidade do produto
+  var preco = 399.00; // Preço do produto
+  
+  // Encontre uma posição vazia no carrinho
+  var i = 1;
+  while (localStorage.getItem("produto" + i) !== null) {
+    i++;
+  }
+  
+  // Adicione os dados do produto à localStorage
+  localStorage.setItem("produto" + i, produto);
+  localStorage.setItem("qtd" + i, quantidade);
+  localStorage.setItem("valor" + i, preco);
+  
+  // Atualize a página para exibir o produto adicionado no carrinho
+  location.reload();
+}
     </script>
 </body>
 </html>

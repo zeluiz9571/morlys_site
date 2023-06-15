@@ -7,14 +7,12 @@
     <title>Pagina Principal</title>
 </head>
 <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-<body style="background-color: #f8f4f4;">
-
+<body>
     <div class="conntainer">
         <a href="pesquisa.html"><img src="lupa.png" alt="lupa" class="lupa"></a>
-        <a  href="perfildousuario.html"><img src="perfil.png" alt="perfil" class="perfil"></a>
+        <a href=""><img src="perfil.png" alt="perfil" class="perfil"></a>
         <a href="carrinho.html"><img src="sacola.png" alt="sacola" class="sacola"></a>
         </div>
-
     <header>
         <div class="navbarsup">
             <a>MORLY'S</a>
@@ -25,17 +23,17 @@
                 <li><a href="#">MAQUIAGENS</a></li>
                 <li><a href="#">CABELO & BARBA</a></li>
                 <li><a href="#">CORPO</a></li>
-                <li><a href="sobre.html">SOBRE</a></li>
+                <li><a href="#">SOBRE</a></li>
             </ul>
         </div>
     </header>
     <section>
         <div class="titulo">
-        <a>DIOR SAUVAGE</a>
+        <a>PÓ ILUMINADOR</a>
         </div>
         <div class="container">
         <div id="contentimg">
-        <img src="img/Sauvage.PNG">
+        <img src="img/poiluminador.PNG">
         </div>
         <div id="stars">
         <ul>
@@ -44,17 +42,17 @@
         <li><img src="img/estrela.PNG"></li>
         <li><img src="img/estrela.PNG"></li>
         <li><img src="img/estrela.PNG"></li>
-        <li><p>5/5</p></li>
+        <li><p>4/5</p></li>
         </ul>
         </div>
         <div id="valor">
-        <a id="principal">VAlOR: R$879,00</a>
+        <a id="principal">VAlOR: R$35,00</a>
         <br>
-        <a id="sub">ou 10x De 87,90</a>
+        <a id="sub">ou 10x De 3,50</a>
         </div>
         <div id="descricao">
         <h1>DESCRIÇÃO</h1>
-        <p>François Demachy, perfumista-Criador de Dior, inspirou-se no deserto, na hora mágica do crepúsculo. Misturado com a frieza da noite, o ar ardente do deserto exala fragrâncias profundas. Na hora em que os lobos saem e o céu é incendiado, uma nova magia se desenrola.</p>
+        <p>Ele foi inspirado no brilho das estrela para te trazer aquele glow perfeito e impecável, que os próprios astros vão ficar com inveja.Nosso pó de estrelas tem aquela corzinha universal que todo mundo ama, e funciona em diversos tons de pele. Use sem moderação no rosto, colo, olhos e onde mais você quiser!.</p>
         </div>
         <div id="botaofinal"><a href="#">FINALIZAR COMPRA</a></div>
         <div id="botaoadd"><a href="#" id="adicionarCarrinho">ADICIONAR AO CARRINHO</a></div>
@@ -70,37 +68,33 @@
         <br>
         <div class="container2">
         <div id="img1">
-        <img src="img/1milion.PNG">
+        <img src="img/batommatte.PNG">
         </div>
         <div id="timg1">
         <ul>
         <li><img src="img/sacola.PNG"></li>
-        <li><p id="p">1 MILLION</p>
-        <p id="sp">R$: 455,00</p></li>
+        <li><p id="p">BATTOM MATTE</p>
+        <p id="sp">R$: 35,00</p></li>
         </ul>
         </div>
         <div id="img2">
-            <a href="areagoodgirl.html">
-                <img src="img/good girl.PNG" alt="imagem de perfume">
-            </a>
+        <img src="img/deliniadorliquido.PNG">
         </div>
         <div id="timg2">
         <ul>
-            <a href="areagoodgirl.html">
-                <li><img src="img/sacola.PNG" ></li>
-            </a>
-        <li><p id="p">GOOD GIRL</p>
-        <p id="sp">R$: 599,00</p></li>
+        <li><img src="img/sacola.PNG"></li>
+        <li><p id="p">DELINIADOR LIQUIDO</p>
+        <p id="sp">R$: 47,90</p></li>
         </ul>
         </div>
         <div id="img3">
-        <img src="img/cocochannel.PNG">
+        <img src="img/paletablush.PNG">
         </div>
         <div id="timg3">
         <ul>
         <li><img src="img/sacola.PNG"></li>
-        <li><p id="p">COCO CHANNEL</p>
-        <p id="sp">R$: 890,00</p></li>
+        <li><p id="p">PALETA BLUSH</p>
+        <p id="sp">R$: 95,00</p></li>
         </ul>
         </div>
         </div>
@@ -129,25 +123,25 @@
         <img src="img/estrela.PNG">
         <img src="img/estrela.PNG">
         <img src="img/estrela.PNG">
-        <a>30</a>
+        <a>3</a>
         </div>
         <div id="star2">
         <img src="img/estrela.PNG">
         <img src="img/estrela.PNG">
         <img src="img/estrela.PNG">
         <img src="img/estrela.PNG">
-        <a>5</a>
+        <a>25</a>
         </div>
         <div id="star3">
         <img src="img/estrela.PNG">
         <img src="img/estrela.PNG">
         <img src="img/estrela.PNG">
-        <a>3</a>
+        <a>7</a>
         </div>
         <div id="star4">
         <img src="img/estrela.PNG">
         <img src="img/estrela.PNG">
-        <a>0</a>
+        <a>1</a>
         </div>
         <div id="star5">
         <img src="img/estrela.PNG">
@@ -201,16 +195,15 @@
             name.value = '';
             lname.value = '';
         });
-
         document.addEventListener("DOMContentLoaded", function() {
   var adicionarCarrinhoButton = document.getElementById("adicionarCarrinho");
   adicionarCarrinhoButton.addEventListener("click", adicionarAoCarrinho);
 });
 
 function adicionarAoCarrinho() {
-  var produto = "DIOR SAUVAGE"; // Nome do produto
+  var produto = "PÓ ILUMINADOR"; // Nome do produto
   var quantidade = 1; // Quantidade do produto
-  var preco = 879.00; // Preço do produto
+  var preco = 35.00; // Preço do produto
   
   // Encontre uma posição vazia no carrinho
   var i = 1;

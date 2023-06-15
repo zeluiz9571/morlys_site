@@ -7,14 +7,12 @@
     <title>Pagina Principal</title>
 </head>
 <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-<body style="background-color: #f8f4f4;">
-
+<body>
     <div class="conntainer">
         <a href="pesquisa.html"><img src="lupa.png" alt="lupa" class="lupa"></a>
-        <a  href="perfildousuario.html"><img src="perfil.png" alt="perfil" class="perfil"></a>
+        <a href=""><img src="perfil.png" alt="perfil" class="perfil"></a>
         <a href="carrinho.html"><img src="sacola.png" alt="sacola" class="sacola"></a>
         </div>
-
     <header>
         <div class="navbarsup">
             <a>MORLY'S</a>
@@ -25,17 +23,17 @@
                 <li><a href="#">MAQUIAGENS</a></li>
                 <li><a href="#">CABELO & BARBA</a></li>
                 <li><a href="#">CORPO</a></li>
-                <li><a href="sobre.html">SOBRE</a></li>
+                <li><a href="#">SOBRE</a></li>
             </ul>
         </div>
     </header>
     <section>
         <div class="titulo">
-        <a>DIOR SAUVAGE</a>
+        <a>DELINIADOR LIQUIDO</a>
         </div>
         <div class="container">
         <div id="contentimg">
-        <img src="img/Sauvage.PNG">
+        <img src="img/deliniadorliquido.PNG">
         </div>
         <div id="stars">
         <ul>
@@ -48,13 +46,13 @@
         </ul>
         </div>
         <div id="valor">
-        <a id="principal">VAlOR: R$879,00</a>
+        <a id="principal">VAlOR: R$47,90</a>
         <br>
-        <a id="sub">ou 10x De 87,90</a>
+        <a id="sub">ou 10x De 4,79</a>
         </div>
         <div id="descricao">
         <h1>DESCRIÇÃO</h1>
-        <p>François Demachy, perfumista-Criador de Dior, inspirou-se no deserto, na hora mágica do crepúsculo. Misturado com a frieza da noite, o ar ardente do deserto exala fragrâncias profundas. Na hora em que os lobos saem e o céu é incendiado, uma nova magia se desenrola.</p>
+        <p>Sua pigmentação é intensa e à prova d'água, por isso preserva a durabilidade da maquiagem por muito mais tempo! O delineador líquido ainda tem um pincel extrafino, que torna o deslize muito mais fácil e preciso. É um item simples de aplicar, compacto para levar na nécessaire e indispensável para deixar seu look arrasador! </p>
         </div>
         <div id="botaofinal"><a href="#">FINALIZAR COMPRA</a></div>
         <div id="botaoadd"><a href="#" id="adicionarCarrinho">ADICIONAR AO CARRINHO</a></div>
@@ -70,37 +68,33 @@
         <br>
         <div class="container2">
         <div id="img1">
-        <img src="img/1milion.PNG">
+        <img src="img/pocompacto.PNG">
         </div>
         <div id="timg1">
         <ul>
         <li><img src="img/sacola.PNG"></li>
-        <li><p id="p">1 MILLION</p>
-        <p id="sp">R$: 455,00</p></li>
+        <li><p id="p">PÓ COMPACTO</p>
+        <p id="sp">R$: 55,00</p></li>
         </ul>
         </div>
         <div id="img2">
-            <a href="areagoodgirl.html">
-                <img src="img/good girl.PNG" alt="imagem de perfume">
-            </a>
+        <img src="img/basefluida.PNG">
         </div>
         <div id="timg2">
         <ul>
-            <a href="areagoodgirl.html">
-                <li><img src="img/sacola.PNG" ></li>
-            </a>
-        <li><p id="p">GOOD GIRL</p>
-        <p id="sp">R$: 599,00</p></li>
+        <li><img src="img/sacola.PNG"></li>
+        <li><p id="p">BASE FLUIDA</p>
+        <p id="sp">R$: 239,00</p></li>
         </ul>
         </div>
         <div id="img3">
-        <img src="img/cocochannel.PNG">
+        <img src="img/mascaracilios.PNG">
         </div>
         <div id="timg3">
         <ul>
         <li><img src="img/sacola.PNG"></li>
-        <li><p id="p">COCO CHANNEL</p>
-        <p id="sp">R$: 890,00</p></li>
+        <li><p id="p">MÁSCARA DE CÍLIOS</p>
+        <p id="sp">R$: 67,00</p></li>
         </ul>
         </div>
         </div>
@@ -136,13 +130,13 @@
         <img src="img/estrela.PNG">
         <img src="img/estrela.PNG">
         <img src="img/estrela.PNG">
-        <a>5</a>
+        <a>8</a>
         </div>
         <div id="star3">
         <img src="img/estrela.PNG">
         <img src="img/estrela.PNG">
         <img src="img/estrela.PNG">
-        <a>3</a>
+        <a>4</a>
         </div>
         <div id="star4">
         <img src="img/estrela.PNG">
@@ -201,16 +195,15 @@
             name.value = '';
             lname.value = '';
         });
-
         document.addEventListener("DOMContentLoaded", function() {
   var adicionarCarrinhoButton = document.getElementById("adicionarCarrinho");
   adicionarCarrinhoButton.addEventListener("click", adicionarAoCarrinho);
 });
 
 function adicionarAoCarrinho() {
-  var produto = "DIOR SAUVAGE"; // Nome do produto
+  var produto = "DELINEADOR LIQUIDO"; // Nome do produto
   var quantidade = 1; // Quantidade do produto
-  var preco = 879.00; // Preço do produto
+  var preco = 47.90; // Preço do produto
   
   // Encontre uma posição vazia no carrinho
   var i = 1;
