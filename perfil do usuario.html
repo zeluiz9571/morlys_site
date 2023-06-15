@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tela de Login</title>
+  <style>
+    .profile {
+      display: flex;
+      align-items: center;
+    }
+    
+    .profile img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    
+    .form-container {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+    }
+    
+    .form-container label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    .form-container input {
+      width: 200px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Dados Pessoais</h1>
+  
+  <div class="profile">
+    <img src="profile_picture.jpg" alt="Profile Picture">
+    <h2>Nome do Usuário</h2>
+  </div>
+  
+  <div class="form-container">
+    <form>
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="birthdate">Data de Nascimento:</label>
+      <input type="date" id="birthdate" name="birthdate" required>
+      
+      <label for="address">Endereço:</label>
+      <input type="text" id="address" name="address" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <input type="submit" value="Entrar">
+    </form>
+  </div>
+</body>
+</html>
