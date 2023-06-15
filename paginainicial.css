@@ -251,43 +251,11 @@ section{
     margin-right: 50px;
 }
 
-    .texto{
-    text-align: center;
-    margin-top: 20px;
-    max-width: 1200px;
-    margin-left: 30px;
+.concluir{
+    margin-left: 50px;
 }
 
-    .linha1{
-        border-bottom: 3px solid rgb(186, 186, 186);
-        margin-top: 20px;
-        margin: auto;
-}
 
-    .linha2{
-        border-bottom: px solid black;
-        margin-top: 20px;
-        margin: auto;
-}
-
-    .linha3{
-        border-bottom: 1px solid black;
-        margin-top: 20px;
-        width: 900px;
-        /* margin: auto; */
-        margin-bottom: 20px;
-        margin-left: 200px;
-}
-
-    .linha4{
-        border-bottom: 1px solid black;
-        margin-top: 20px;
-        width: 900px;
-        /* margin: auto; */
-        margin-bottom: 20px;
-        margin-left: 200px;
-}
-    
 .lupa {
     height: 20px;
     width: 30px;
@@ -334,4 +302,3 @@ section{
     height: 300px;
     top: 20px;
     right: 0;
-  }
