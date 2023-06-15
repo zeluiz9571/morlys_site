@@ -58,6 +58,13 @@ margin-left: 10px;
 section{
     background-color: rgba(244, 244, 244, 1);
 }
+ul li{
+    text-decoration: none;
+}
+a:link {
+    color: inherit;
+    text-decoration: none;
+}
 .container{
     margin-left: 120px;
     margin-right: 120px;
