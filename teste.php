@@ -109,9 +109,18 @@
         <Br>
         <br>
         <div class="container3">
-        <div id="comentario" font-size: 10px>
-        COMENTARIOS
-        <br>
+        <div id="comentario">
+        <H1>COMENTARIOS</H1>
+        <input type="text" name="comentario" value=
+        <?php
+    if(isset($_POST["submit"])){
+    $texto = $_POST["comentario"];
+
+    echo "<br><br>";
+    echo "<h2>" .$comentario. "</h2>";
+}
+?>
+        <p>TEXTO</p>
         </div>
         <div id="star1">
         <img src="img/estrela.PNG">
@@ -144,23 +153,32 @@
         <a>0</a>
         </div>
         <!-- Formulario -->
-        <form id="formulario">
-        <div id="tituloof">DEIXE SEU COMENTÁRIO</div>
-        <br>
-        <div id="estrelas">
-        <img src="img/estrela.PNG">
-        <img src="img/estrela.PNG">
-        <img src="img/estrela.PNG">
-        <img src="img/estrela.PNG">
-        <img src="img/estrela.PNG">
-        <input type="range" max="5" id="range">
-        </div>
-        <input type="text" id="name">
-        <div id="seutexto">
-        <input type="" id="lname">
-        <br>
-        <input type="submit" ID="submit"></div>
+        form action="index.php" method="post">
+            <div id="tituloof">DEIXE SEU COMENTÁRIO</div>
+            <br>
+            <div id="estrelas">
+                <img src="img/estrela.PNG">
+                <img src="img/estrela.PNG">
+                <img src="img/estrela.PNG">
+                <img src="img/estrela.PNG">
+                <img src="img/estrela.PNG">
+                <input type="range" max="5" id="range">
+            </div>
+            <div id="seutexto">
+                <label for="comentario">
+                    <textarea rows="12" cols="51" maxlength="300" name="comentario" required="required" placeholder="Digite até 300 caracteres"></textarea>
+                </label>
+                <br>
+                <input type="submit" value="ENVIAR" id="submit" name="submit">
+            </div>
         </form>
+
+        <?php
+        if(isset($_POST["submit"])){
+            $comentario = $_POST["comentario"];
+            echo "<div id='comentario'>$comentario</div>";
+        }
+        ?>
         <br>
         <br>
         <br>
@@ -171,24 +189,5 @@
         <hr>
         <P>TODOS OS DIREITOS RESEVADOS</P>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        const name = document.getElementById('name');
-        const range = document.getElementById('range');
-        const lname = document.getElementById('lname');
-        const form = document.getElementById('formulario');
-        const comentario = document.getElementById('comentario');
-
-        form.addEventListener('submit', (event) => {
-            event.preventDefault();
-
-            let p = document.createElement('p');
-            p.classList = 'p-2 d-flex text-wrap';
-            p.innerHTML = `<strong>${name.value}: </strong> &nbsp ${lname.value} </strong> &nbsp ${range.value} ` ;
-            comentario.appendChild(p);
-            name.value = '';
-            lname.value = '';
-        });
-    </script>
 </body>
 </html>

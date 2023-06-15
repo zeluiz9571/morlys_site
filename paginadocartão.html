@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href="pagina1.css">
+    <title>Cadastro</title> 
+</head>
+<body>
+    <head>
+    <link rel="stylesheet" href="paginainicial.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href="paginainicial.css">
+    <title>Pagina Principal</title>
+</head>
+<body>
+    
+    <header>
+        <div class="navbarsup">
+            <a>MORLY'S</a>
+        </div>
+        <div class="subnavbar">
+            <ul>
+                <li><a href="#">PERFUMES</a></li>
+                <li><a href="#">MAQUIAGENS</a></li>
+                <li><a href="#">CABELO & BARBA</a></li>
+                <li><a href="#">CORPO</a></li>
+            </ul>
+        </div>
+    </header>
+</body>
+
+
+   
+    <form>
+         <h1>Concluir cadastro</h1>
+         <br><br>
+        
+        
+         <input type="text" maxlength="10" id="numero_cartao" name="numero_cartao" placeholder="Número do Cartão:" required><br>
+       
+      
+        
+        <select id="tipo_cartao" name="tipo_cartao" required>
+          <option value="Tipo do Cartão">Tipo do Cartão:</option>
+          <option value="debito">Débito</option>
+          <option value="credito">Crédito</option>
+        </select><br>
+      
+        
+        <input type="text" id="data_validade" name="data_validade" placeholder="Data de Validade:" required><br>
+      
+        <input type="text" id="cvv" name="cvv" placeholder="Código de Segurança (CVV):" required><br>
+      
+        <input type="text" id="cep" name="cep" placeholder="CEP:" required><br>
+      
+        <input type="submit" value="Prosseguir">
+      </form>
+      
+    
+</body>
+</html>
