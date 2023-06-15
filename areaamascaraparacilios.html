@@ -8,6 +8,11 @@
 </head>
 <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
 <body>
+    <div class="conntainer">
+        <a href="pesquisa.html"><img src="lupa.png" alt="lupa" class="lupa"></a>
+        <a href=""><img src="perfil.png" alt="perfil" class="perfil"></a>
+        <a href="carrinho.html"><img src="sacola.png" alt="sacola" class="sacola"></a>
+        </div>
     <header>
         <div class="navbarsup">
             <a>MORLY'S</a>
@@ -52,7 +57,7 @@
             É resistente a suor, umidade e não transfere, além de acompanhar um aplicador cônico que curva, define e alonga os cílios.</p>
         </div>
         <div id="botaofinal"><a href="#">FINALIZAR COMPRA</a></div>
-        <div id="botaoadd"><a href="#">ADICIONAR AO CARRINHO</a></div>
+        <div id="botaoadd"><a href="#" id="adicionarCarrinho">ADICIONAR AO CARRINHO</a></div>
         </div>
         <br>
         <br>
@@ -192,10 +197,15 @@
             name.value = '';
             lname.value = '';
         });
-        function adicionarAoCarrinho() {
-  var produto = "TRIBE BENETTON"; // Nome do produto
+        document.addEventListener("DOMContentLoaded", function() {
+  var adicionarCarrinhoButton = document.getElementById("adicionarCarrinho");
+  adicionarCarrinhoButton.addEventListener("click", adicionarAoCarrinho);
+});
+
+function adicionarAoCarrinho() {
+  var produto = "MÁSCARA PARA CÍLIOS"; // Nome do produto
   var quantidade = 1; // Quantidade do produto
-  var preco = 182.90; // Preço do produto
+  var preco = 67.00; // Preço do produto
   
   // Encontre uma posição vazia no carrinho
   var i = 1;

@@ -58,7 +58,7 @@
         <p>Toy Boy de Moschino é um perfume Amadeirado Especiado Masculino. Toy Boy foi lançada em 2019. O perfumista que assina esta fragrância é Yann Vasnier. As notas de topo são: Pimenta Rosa, Pera, Noz-moscada indonésia, Elemi e Bergamota.</p>
         </div>
         <div id="botaofinal"><a href="#">FINALIZAR COMPRA</a></div>
-        <div id="botaoadd"><a href="#">ADICIONAR AO CARRINHO</a></div>
+        <div id="botaoadd"><a href="#" id="adicionarCarrinho">ADICIONAR AO CARRINHO</a></div>
         </div>
         <br>
         <br>
@@ -198,10 +198,15 @@
             name.value = '';
             lname.value = '';
         });
-        function adicionarAoCarrinho() {
-  var produto = "TRIBE BENETTON"; // Nome do produto
+        document.addEventListener("DOMContentLoaded", function() {
+  var adicionarCarrinhoButton = document.getElementById("adicionarCarrinho");
+  adicionarCarrinhoButton.addEventListener("click", adicionarAoCarrinho);
+});
+
+function adicionarAoCarrinho() {
+  var produto = "TOY BOY MOSCHINO"; // Nome do produto
   var quantidade = 1; // Quantidade do produto
-  var preco = 182.90; // Preço do produto
+  var preco = 319.00; // Preço do produto
   
   // Encontre uma posição vazia no carrinho
   var i = 1;
