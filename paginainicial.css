@@ -1,5 +1,4 @@
-*
-{
+*{
 margin: 0;
 padding:0;
 box-sizing: border-box;
@@ -46,7 +45,6 @@ section{
     margin-left: 70px;
     height: 200px;
     width: 1120px;
-    background-color: rgb(170, 170, 170);
     float: left;
 }
 .Produto1{
@@ -167,6 +165,8 @@ section{
     float: left;
 }
 .VerMais1{
+    border-radius: 20px;
+    background-color: black;
     margin: 30px;
     margin-top: 20px;
     margin-left: 25px;
@@ -176,6 +176,8 @@ section{
     align-items: center;
 }
 .VerMais2{
+    border-radius: 20px;
+    background-color: black;
     margin: 30px;
     margin-top: 20px;
     margin-left: 25px;
@@ -185,6 +187,8 @@ section{
     align-items: center;
 }
 .VerMais3{
+    border-radius: 20px;
+    background-color: black;
     margin: 30px;
     margin-top: 20px;
     margin-left: 25px;
@@ -194,6 +198,8 @@ section{
     align-items: center;
 }
 .VerMais4{
+    border-radius: 20px;
+    background-color: black;
     margin: 30px;
     margin-top: 20px;
     margin-left: 25px;
@@ -201,6 +207,45 @@ section{
     width: 75px;
     background-color: rgb(180, 180, 180);
     align-items: center;
+
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+    .page-title     {
+    text-align: center;
+    padding: 20px;
+    font-size: 27px;
+}
+    .subnavbar{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+}
+     .navbar li{
+    float: left;
+    padding: 0px 60px;
+} 
+    .navbar li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    .navbar ul{
+    list-style-type: none;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+    .sobre{
+    text-align: center;  
+    line-height: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .concluir{
@@ -211,10 +256,10 @@ section{
 .lupa {
     height: 20px;
     width: 30px;
-    /* margin-left: 1135px;
+    margin-left: 1135px;
     margin-bottom: 0px;
-    margin-top: 0px; */
-    position: fixed;
+    margin-top: 0px;
+    position: absolute;
     top: 25px;
     right: 300px;
  }
@@ -229,10 +274,10 @@ section{
  .perfil{
     height: 20px;
     width: 20px;
-    /* margin-left: 1135px;
+    margin-left: 1135px;
     margin-bottom: 0px;
-    margin-top: 0px; */
-    position: fixed;
+    margin-top: 0px; 
+    position: absolute;
     top: 25px;
     right: 220px;
  }
@@ -240,16 +285,16 @@ section{
  .sacola{
     height: 20px;
     width: 30px;
-    /* margin-left: 1135px;
+    margin-left: 1135px;
     margin-bottom: 0px;
-    margin-top: 0px; */
-    position: fixed;
+    margin-top: 0px;
+    position: absolute;
     top: 25px;
     right: 260px;
  }
 
  .container {
-    position: relative;
+    position:fixed;
     width: 500px;
     height: 300px;
     top: 20px;
