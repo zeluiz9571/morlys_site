@@ -79,11 +79,11 @@ background-color: rgba(217, 217, 217, 1);
 align-items: center;
 width: 500px;
 height: 400px;
-padding: 50px 60px;;
+padding: 0px 60px;;
 }
 #contentimg img{
 width: 400px;
-height: 330px;
+height: 400px;
 }
 #stars{
 margin-left: 20px;
