@@ -199,6 +199,25 @@
             name.value = '';
             lname.value = '';
         });
+        function adicionarAoCarrinho() {
+  var produto = "TRIBE BENETTON"; // Nome do produto
+  var quantidade = 1; // Quantidade do produto
+  var preco = 182.90; // Preço do produto
+  
+  // Encontre uma posição vazia no carrinho
+  var i = 1;
+  while (localStorage.getItem("produto" + i) !== null) {
+    i++;
+  }
+  
+  // Adicione os dados do produto à localStorage
+  localStorage.setItem("produto" + i, produto);
+  localStorage.setItem("qtd" + i, quantidade);
+  localStorage.setItem("valor" + i, preco);
+  
+  // Atualize a página para exibir o produto adicionado no carrinho
+  location.reload();
+}
     </script>
 </body>
 </html>
