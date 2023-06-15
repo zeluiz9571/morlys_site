@@ -8,7 +8,14 @@
     <title>Pagina Principal</title>
 </head>
 <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-<body>
+<body style="background-color: #f8f4f4;">
+
+    <div class="conntainer">
+        <a href="pesquisa.html"><img src="lupa.png" alt="lupa" class="lupa"></a>
+        <a  href="perfildousuario.html"><img src="perfil.png" alt="perfil" class="perfil"></a>
+        <a href="carrinho.html"><img src="sacola.png" alt="sacola" class="sacola"></a>
+        </div>
+
     <header>
         <div class="navbarsup">
             <a>MORLY'S</a>
@@ -19,7 +26,7 @@
                 <li><a href="#">MAQUIAGENS</a></li>
                 <li><a href="#">CABELO & BARBA</a></li>
                 <li><a href="#">CORPO</a></li>
-                <li><a href="#">SOBRE</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>
             </ul>
         </div>
     </header>
@@ -51,7 +58,7 @@
         <p>François Demachy, perfumista-Criador de Dior, inspirou-se no deserto, na hora mágica do crepúsculo. Misturado com a frieza da noite, o ar ardente do deserto exala fragrâncias profundas. Na hora em que os lobos saem e o céu é incendiado, uma nova magia se desenrola.</p>
         </div>
         <div id="botaofinal"><a href="#">FINALIZAR COMPRA</a></div>
-        <div id="botaoadd"><a href="#">ADICIONAR AO CARRINHO</a></div>
+        <div id="botaoadd"><a href="#" id="adicionarCarrinho">ADICIONAR AO CARRINHO</a></div>
         </div>
         <br>
         <br>
@@ -74,11 +81,15 @@
         </ul>
         </div>
         <div id="img2">
-        <img src="img/good girl.PNG">
+            <a href="areagoodgirl.html">
+                <img src="img/good girl.PNG" alt="imagem de perfume">
+            </a>
         </div>
         <div id="timg2">
         <ul>
-        <li><img src="img/sacola.PNG"></li>
+            <a href="areagoodgirl.html">
+                <li><img src="img/sacola.PNG" ></li>
+            </a>
         <li><p id="p">GOOD GIRL</p>
         <p id="sp">R$: 599,00</p></li>
         </ul>
@@ -191,6 +202,31 @@
             name.value = '';
             lname.value = '';
         });
+
+        document.addEventListener("DOMContentLoaded", function() {
+  var adicionarCarrinhoButton = document.getElementById("adicionarCarrinho");
+  adicionarCarrinhoButton.addEventListener("click", adicionarAoCarrinho);
+});
+
+function adicionarAoCarrinho() {
+  var produto = "DIOR SAUVAGE"; // Nome do produto
+  var quantidade = 1; // Quantidade do produto
+  var preco = 879.00; // Preço do produto
+  
+  // Encontre uma posição vazia no carrinho
+  var i = 1;
+  while (localStorage.getItem("produto" + i) !== null) {
+    i++;
+  }
+  
+  // Adicione os dados do produto à localStorage
+  localStorage.setItem("produto" + i, produto);
+  localStorage.setItem("qtd" + i, quantidade);
+  localStorage.setItem("valor" + i, preco);
+  
+  // Atualize a página para exibir o produto adicionado no carrinho
+  location.reload();
+}
     </script>
 </body>
 </html>
