@@ -216,14 +216,14 @@
     padding: 40px;
   }
   
-  .pedidos{
+  #pedidos{
   position: relative;
   top: 40px;
   left: 20%;
   font-size: 150%;
   }
 
-  .linhav {
+  #linhav {
     position: absolute;
     left: 50%; /* Posiciona a linha no centro horizontal */
     top: 0;
@@ -236,9 +236,23 @@
     bottom: 30%;
   }
   
-  .finalizar{
+  #finalizar{
     position: relative;
     top: 40px;
     left: 51%;
     font-size: 150%;
+  }
+
+  #cartao {
+    width: 25%; /* define a largura */
+    height: 40px; /* define a altura */
+    position: relative;
+    top: 250px; /* move para baixo */
+    left: 29.5%; /* move para a esquerda */
+  }
+
+  #total{
+    top: 100px;
+    left: 7%;
+    position: relative;
   }
