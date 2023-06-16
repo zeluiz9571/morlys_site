@@ -227,10 +227,9 @@
     position: absolute;
     left: 50%; /* Posiciona a linha no centro horizontal */
     top: 0;
-    height: 50px; /* Define a altura total da linha */
+    height: 50%; /* Define a altura total da linha */
     border-left: 1px solid black; /* Define o estilo e cor da linha */
     transform: translateX(-50%); /* Centraliza a linha horizontalmente */
-    height: 500px;
     left: 50%;
     top: 30%;
     bottom: 30%;
@@ -244,8 +243,8 @@
   }
 
   #cartao {
-    top:100%;
-    left: 60%;
+    top:70%;
+    left: 65%;
     position: absolute;
     font-size: large;
     height: 7%;
@@ -270,6 +269,13 @@
     text-decoration: none; /* adicionar linha embaixo */
     color: inherit; /* usar a cor herdada do elemento pai */
     font-weight: bold; /* deixar o texto em negrito */
-  }
+    top:80%;
+    left: 69%;
+    position: absolute;
+    font-size: large;
+    height: 7%;
+    width: 17.5%;
+    }
 
-  
+
+

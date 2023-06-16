@@ -155,16 +155,6 @@ section{
     background-color: #45a049;
   }
 
-  .cadastro{
-    align-items: center;
-    position: relative;
-    margin-left: 60px;
-  }
-
-  .numero{
-    margin-left: 60px;
-  }
-
-  .cartao{
-   justify-content: center;
-  }
+.dados{
+  left: 50%;
+}
