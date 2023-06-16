@@ -322,3 +322,11 @@ a:link{
     top: 20px;
     right: 0;
  }
+ footer {
+    height: 100px;
+    text-align: center;
+  }
+  
+  footer p {
+    padding: 40px;
+  }
