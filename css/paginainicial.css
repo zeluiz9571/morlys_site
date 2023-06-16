@@ -49,7 +49,7 @@ section{
 }
 .Produto1{
     margin: 100px;
-    margin-top: 90px;
+    margin-top: 30px;
     margin-left: 70px;
     height: 250px;
     width: 250px; 
@@ -58,7 +58,7 @@ section{
 }
 .Produto2{
     margin: 100px;
-    margin-top: 90px;
+    margin-top: 30px;
     margin-left: 70px;
     height: 250px;
     width: 250px;
@@ -67,7 +67,7 @@ section{
 }
 .Produto3{
     margin: 100px;
-    margin-top: 90px;
+    margin-top: 30px;
     margin-left: 70px;
     height: 250px;
     width: 250px;
@@ -76,7 +76,7 @@ section{
 }
 .Produto4{
     margin: 100px;
-    margin-top: 90px;
+    margin-top: 30px;
     margin-left: 70px;
     height: 250px;
     width: 250px;
@@ -85,7 +85,7 @@ section{
 }
 .Produto5{
     margin: 100px;
-    margin-top: 90px;
+    margin-top: 30px;
     margin-left: 70px;
     height: 250px;
     width: 250px;
@@ -94,7 +94,7 @@ section{
 }
 .Produto6{
     margin: 100px;
-    margin-top: 90px;
+    margin-top: 30px;
     margin-left: 70px;
     height: 250px;
     width: 250px;
@@ -103,7 +103,7 @@ section{
 }
 .Produto7{
     margin: 100px;
-    margin-top: 90px;
+    margin-top: 30px;
     margin-left: 70px;
     height: 250px;
     width: 250px;
@@ -112,7 +112,7 @@ section{
 }
 .Produto8{
     margin: 100px;
-    margin-top: 90px;
+    margin-top: 30px;
     margin-left: 70px;
     height: 250px;
     width: 250px;
@@ -121,7 +121,7 @@ section{
 }
 .Produto9{
     margin: 100px;
-    margin-top: 90px;
+    margin-top: 30px;
     margin-left: 70px;
     height: 250px;
     width: 250px;
@@ -130,7 +130,7 @@ section{
 }
 .Produto10{
     margin: 100px;
-    margin-top: 90px;
+    margin-top: 30px;
     margin-left: 70px;
     height: 250px;
     width: 250px;
@@ -139,7 +139,7 @@ section{
 }
 .Produto11{
     margin: 100px;
-    margin-top: 90px;
+    margin-top: 30px;
     margin-left: 70px;
     height: 250px;
     width: 250px;
@@ -148,7 +148,7 @@ section{
 }
 .Produto12{
     margin: 100px;
-    margin-top: 90px;
+    margin-top: 30px;
     margin-left: 70px;
     height: 250px;
     width: 250px;
@@ -157,64 +157,79 @@ section{
 }
 .Produto13{
     margin: 100px;
-    margin-top: 90px;
+    margin-top: 30px;
     margin-left: 70px;
     height: 250px;
     width: 250px;
     background-color: rgb(180, 180, 180);
     float: left;
 }
+p{
+    margin-left: 50px;
+}
 .VerMais1{
     border-radius: 20px;
     background-color: black;
     margin: 30px;
-    margin-top: 20px;
-    margin-left: 50px;
+    margin-top: 10px;
+    margin-left: 70px;
     height: 30px;
     width: 75px;
     background-color: rgb(180, 180, 180);
     align-items: center;
     text-align: center;
-   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    margin-left: 50px;
 }
 .VerMais2{
     border-radius: 20px;
     background-color: black;
     margin: 30px;
-    margin-top: 20px;
-    margin-left: 50px;
+    margin-top: 10px;
+    margin-left: 70px;
     height: 30px;
     width: 75px;
     background-color: rgb(180, 180, 180);
     align-items: center;
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    margin-left: 50px;
 }
 .VerMais3{
     border-radius: 20px;
     background-color: black;
     margin: 30px;
-    margin-top: 20px;
-    margin-left: 50px;
+    margin-top: 10px;
+    margin-left: 70px;
     height: 30px;
     width: 75px;
     background-color: rgb(180, 180, 180);
     align-items: center;
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    margin-left: 50px;
 }
 .VerMais4{
     border-radius: 20px;
     background-color: black;
     margin: 30px;
-    margin-top: 20px;
-    margin-left: 50px;
+    margin-top: 10px;
+    margin-left: 70px;
     height: 30px;
     width: 75px;
     background-color: rgb(180, 180, 180);
     align-items: center;
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    font-family: 'inter';
+}
+a:link{
+    color: inherit;
+    text-decoration: none;
 }
 *{
     margin: 0;
@@ -307,3 +322,12 @@ section{
     top: 20px;
     right: 0;
  }
+ footer{
+    text-align: center;
+ }
+
+p{
+    margin-top: 10px;
+    margin-left: 70px;
+    color: black;
+}
