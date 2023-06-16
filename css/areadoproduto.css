@@ -481,7 +481,7 @@ FORM{
     /* margin-left: 1135px;
     margin-bottom: 0px;
     margin-top: 0px; */
-    position: fixed;
+    position: relative;
     top: 25px;
     right: 220px;
  }
@@ -492,7 +492,7 @@ FORM{
     /* margin-left: 1135px;
     margin-bottom: 0px;
     margin-top: 0px; */
-    position: fixed;
+    position: relative;
     top: 25px;
     right: 260px;
  }
