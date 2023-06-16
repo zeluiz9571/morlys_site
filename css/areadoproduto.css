@@ -15,6 +15,7 @@ footer p{
     padding: 40px;
 }
 .navbarsup{
+height: 70px;
 font-family: 'Inter';
 text-align: center;
 padding: 20px;
@@ -481,7 +482,7 @@ FORM{
     /* margin-left: 1135px;
     margin-bottom: 0px;
     margin-top: 0px; */
-    position: relative;
+    position: FIXED;
     top: 25px;
     right: 220px;
  }
@@ -492,11 +493,61 @@ FORM{
     /* margin-left: 1135px;
     margin-bottom: 0px;
     margin-top: 0px; */
-    position: relative;
+    position: fixed;
     top: 25px;
     right: 260px;
  }
-
+ .banner img{
+    width: 1100px;
+ }
+ .banner{
+    margin-left: 80px;
+ }
+ .tcontainer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ttcontainer2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .product {
+    text-align: center;
+    margin: 0 10px;
+    margin: 10px 80px 180px; 
+  }
+  
+  .image img {
+    width: 220px;
+    height: 250px;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  .price {
+    margin-top: 5px;
+  }
+  
+  .buy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+  }
+  
+  .buy img {
+    margin-right: 5px;
+  }
+  
  
 
 
