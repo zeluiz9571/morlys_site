@@ -244,11 +244,12 @@
   }
 
   #cartao {
-    width: 25%; /* define a largura */
-    height: 40px; /* define a altura */
-    position: relative;
-    top: 250px; /* move para baixo */
-    left: 29.5%; /* move para a esquerda */
+    top:100%;
+    left: 60%;
+    position: absolute;
+    font-size: large;
+    height: 7%;
+    width: 17.5%;
   }
 
   #total{
@@ -264,3 +265,11 @@
     position: absolute;
     font-size: large;
   }
+
+  #cadastro{
+    text-decoration: none; /* adicionar linha embaixo */
+    color: inherit; /* usar a cor herdada do elemento pai */
+    font-weight: bold; /* deixar o texto em negrito */
+  }
+
+  
