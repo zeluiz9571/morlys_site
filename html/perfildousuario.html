@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="icon" type="image/x-icon" href="favicon.png">
   <title>Tela de Login</title>
   <style>
     body {
@@ -13,6 +12,7 @@
       align-items: flex-start;
       justify-content: space-between;
       padding: 20px;
+      position: relative;
     }
     
     .title {
@@ -25,14 +25,19 @@
       flex-direction: column;
       flex-basis: 30%;
       align-items: center;
-      padding: 60px;
+      padding: 40px 60px 20px;
     }
 
     .profile img {
-      width: 150px;
-      height: 150px;
+      width: 200px;
+      height: 200px;
       border-radius: 50%;
       margin-bottom: 10px;
+    }
+
+    .profile h2 {
+      font-size: 24px;
+      margin-top: 0;
     }
     
     .personal-data {
@@ -40,6 +45,7 @@
       background-color: #f2f2f2;
       padding: 60px;
       font-size: 18px;
+      text-align: center;
     }
     
     .personal-data label {
@@ -52,18 +58,52 @@
       width: 200px;
       margin-bottom: 10px;
     }
+    
+    .center-button {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    
+    .center-button button {
+      padding: 10px 20px;
+      font-size: 20px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+    
+    .center-button button img {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+    }
+
+    .top-right-text {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 16px;
+      font-weight: bold;
+    }
   </style>
 </head>
-<body>
+<body style="background-color: #f8f4f4;">
   <div class="data-container">
     <div class="profile">
       <img src="perfil.png" alt="Profile Picture">
       <h2>Nome do Usuário</h2>
-    </div>
-    <div class="title">
-      <h1>Dados Pessoais</h1>
+      <div class="center-button">
+        <button><img src="Sacola3.png.jpg" alt="Ícone de Produto">Ver Produtos</button>
+      </div>
     </div>
     <div class="personal-data">
+      <h1>Dados Pessoais</h1>
       <div>
         <label for="name">Nome:</label>
         <br>
@@ -87,13 +127,14 @@
         <br>
         <input type="email" id="email" name="email" required>
       </div>
-
+      
       <form action="https://api.sheetmonkey.io/form/qJszJ3CsdgnpDvo7RSv8JP" method="post">
         <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
         <br>
         <input type="submit" value="Registrar" />
       </form>
     </div>
+    <span class="top-right-text">Editar Dados</span>
   </div>
 </body>
 </html>

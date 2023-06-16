@@ -1,137 +1,275 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
-    }
-    .page-title     {
+  }
+  
+  .navbarsup {
     text-align: center;
     padding: 20px;
     font-size: 27px;
-    }
-    .subnavbar{
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: rgba(223, 220, 220, 0.91);
+  }
+  
+  .subnavbar {
     display: flex;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: rgba(0, 0, 0, 0.41);
     height: 50px;
     justify-content: center;
-    }
-     .navbar li{
+  }
+  
+  .subnavbar li {
     float: left;
     padding: 0px 60px;
-    } 
-    .navbar li a{
+  }
+  
+  .subnavbar li a {
     display: block;
     color: black;
     text-decoration: none;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    }
-    .navbar ul{
+  }
+  
+  .subnavbar ul {
     list-style-type: none;
     margin-right: 70px;
-    margin-left: 70px;
-    }
-    .sobre{
-    text-align: center;  
-    line-height: 25px;
-    margin-left: 50px;
-    margin-right: 50px;
-    }
-
-    .texto{
+    margin-left: 10px;
+  }
+  
+  #botaofinal {
+    grid-area: final;
+    background-color: rgba(217, 217, 217, 1);
     text-align: center;
-    margin-top: 20px;
-    max-width: 1200px;
-    margin-left: 30px;
+    padding: 12px;
+    }
+    #botaofinal a{
+     text-decoration: none;
+     color: black;
+     text-align: center;
+     
     }
 
-    .linha1{
-        border-bottom: 3px solid rgb(186, 186, 186);
-        margin-top: 20px;
-        margin: auto;
-    }
+    #botaoadd{
+        grid-area: adicionar;
+        background-color: rgba(217, 217, 217, 1);
+        text-align: center;
+        padding: 12px;
+        }
+        #botaoadd a{
+        text-decoration: none;
+        color: black;
+        }
 
-    .linha2{
-        border-bottom: px solid black;
-        margin-top: 20px;
-        margin: auto;
-    }
+        #botaoadd1{
+            grid-area: adicionar;
+            background-color: rgba(217, 217, 217, 1);
+            text-align: center;
+            padding: 12px;
+            margin-left:"100px";
+            }
+           
 
-    .linha3{
-        border-bottom: 1px solid black;
-        margin-top: 20px;
-        width: 900px;
-        /* margin: auto; */
-        margin-bottom: 20px;
-        margin-left: 200px;
-    }
+.footer{
+    height: 100px;
+    text-align: center;
+}
+.footer p{
+    padding: 40px;
+}
+.lupa {
+    height: 20px;
+    width: 30px;
+    /* margin-left: 1135px;
+    margin-bottom: 0px;
+    margin-top: 0px; */
+    position: fixed;
+    top: 25px;
+    right: 300px;
+ }
+ .class{
+    height: 20px;
+    width: 20px;
+    margin-left: 1100px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+ }  
 
-    .linha4{
-        border-bottom: 1px solid black;
-        margin-top: 20px;
-        width: 900px;
-        /* margin: auto; */
-        margin-bottom: 20px;
-        margin-left: 200px;
-    }
-    
-    .lupa {
-        height: 20px;
-        width: 30px;
-        /* margin-left: 1135px;
-        margin-bottom: 0px;
-        margin-top: 0px; */
-        position: absolute;
-        top: 25px;
-        right: 300px;
-    }
-    .class{
-        height: 20px;
-        width: 20px;
-        margin-left: 1100px;
-        margin-bottom: 0px;
-        margin-top: 0px;
-    }  
+ .perfil{
+    height: 20px;
+    width: 20px;
+    /* margin-left: 1135px;
+    margin-bottom: 0px;
+    margin-top: 0px; */
+    position: fixed;
+    top: 25px;
+    right: 220px;
+ }
 
-    .perfil{
-        height: 20px;
-        width: 20px;
-        /* margin-left: 1135px;
-        margin-bottom: 0px;
-        margin-top: 0px; */
-        position: absolute;
-        top: 25px;
-        right: 220px;
-    }
+ .sacola{
+    height: 20px;
+    width: 30px;
+    /* margin-left: 1135px;
+    margin-bottom: 0px;
+    margin-top: 0px; */
+    position: fixed;
+    top: 25px;
+    right: 260px;
+ }
 
-    .sacola{
-        height: 20px;
-        width: 30px;
-        /* margin-left: 1135px;
-        margin-bottom: 0px;
-        margin-top: 0px; */
-        position: absolute;
-        top: 25px;
-        right: 260px;
-    }
+ .container {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    top: 20px;
+    right: 0;
+  }
 
-    .pedido {
-        position: relative;
-        top: 10px;
-        left: 400px;
-    }
 
-    .produtos {
-        position: relative;
-        bottom: 17.5px;
-        left: 65%;
-    }
+  
+  #botaofinal a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+  }
+  
+  .lupa {
+    height: 20px;
+    width: 30px;
+    /* margin-left: 1135px;
+    margin-bottom: 0px;
+    margin-top: 0px; */
+    position: absolute;
+    top: 25px;
+    right: 300px;
+  }
+  
+  .class {
+    height: 20px;
+    width: 20px;
+    margin-left: 1100px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  .perfil {
+    height: 20px;
+    width: 20px;
+    /* margin-left: 1135px;
+    margin-bottom: 0px;
+    margin-top: 0px; */
+    position: absolute;
+    top: 25px;
+    right: 220px;
+  }
+  
+  .sacola {
+    height: 20px;
+    width: 30px;
+    /* margin-left: 1135px;
+    margin-bottom: 0px;
+    margin-top: 0px; */
+    position: absolute;
+    top: 25px;
+    right: 260px;
+  }
+  
+  .container {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 20px;
+    right: 0;
+  }
+  
+  #botaoadd {
+    grid-area: adicionar;
+    background-color: rgba(217, 217, 217, 1);
+    text-align: center;
+    padding: 12px;
+  }
+  
+  #botaoadd a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #botaoadd1 {
+    grid-area: adicionar;
+    background-color: rgba(217, 217, 217, 1);
+    text-align: center;
+    padding: 12px;
+    margin-left: 100px;
+  }
+  
+  footer {
+    height: 100px;
+    text-align: center;
+  }
+  
+  footer p {
+    padding: 40px;
+  }
+  
+  #pedidos{
+  position: relative;
+  top: 40px;
+  left: 20%;
+  font-size: 150%;
+  }
 
-    .linha-vertical {
-        width: 2px; /* Define a largura da linha */
-        height: 500px; /* Define a altura da linha como 100% do elemento pai */
-        background-color: rgb(186, 186, 186); /* Define a cor da linha */
-        position: absolute; /* Define a posição absoluta para que possamos mover a linha */
-        left: 50%; /* Move a linha para o meio horizontal */
-        transform: translateX(-50%); /* Ajusta a posição da linha no meio */
-      }
-      
+  #linhav {
+    position: absolute;
+    left: 50%; /* Posiciona a linha no centro horizontal */
+    top: 0;
+    height: 50px; /* Define a altura total da linha */
+    border-left: 1px solid black; /* Define o estilo e cor da linha */
+    transform: translateX(-50%); /* Centraliza a linha horizontalmente */
+    height: 500px;
+    left: 50%;
+    top: 30%;
+    bottom: 30%;
+  }
+  
+  #finalizar{
+    position: relative;
+    top: 40px;
+    left: 51%;
+    font-size: 150%;
+  }
+
+  #cartao {
+    top:100%;
+    left: 60%;
+    position: absolute;
+    font-size: large;
+    height: 7%;
+    width: 17.5%;
+  }
+
+  #total{
+    top: 35%;
+    left: 60%;
+    position: absolute;
+    font-size: large;
+  }
+
+  #produtos1{
+    top: 40%;
+    left: 60%;
+    position: absolute;
+    font-size: large;
+  }
+
+  #cadastro{
+    text-decoration: none; /* adicionar linha embaixo */
+    color: inherit; /* usar a cor herdada do elemento pai */
+    font-weight: bold; /* deixar o texto em negrito */
+  }
+
+  
