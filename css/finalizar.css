@@ -252,7 +252,15 @@
   }
 
   #total{
-    top: 100px;
-    left: 7%;
-    position: relative;
+    top: 35%;
+    left: 60%;
+    position: absolute;
+    font-size: large;
+  }
+
+  #produtos1{
+    top: 40%;
+    left: 60%;
+    position: absolute;
+    font-size: large;
   }
