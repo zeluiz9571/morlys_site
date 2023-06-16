@@ -530,14 +530,14 @@ FORM{
   }
   
   .price {
-    margin-top: 5px;
+    margin-top: 10px;
   }
   
   .buy {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5px;
+    margin-top: 15px;
     background-color: black;
     border-radius: 5px;
     padding: 5px 10px;
@@ -547,6 +547,9 @@ FORM{
   .buy img {
     margin-right: 5px;
   }
+#perfumes{
+    height: 2000px;
+}
   
  
 
