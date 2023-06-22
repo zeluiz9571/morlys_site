@@ -1,39 +1,160 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="../css/perfildousuario.css">
-	<link rel="icon" type="image/x-icon" href="../img/favicon.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-	<title> Finalizar pedido</title>
-
-
   <title>Tela de Login</title>
-</head>
-	<body style="background-color: #f8f4f4;">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    
+    .navbar {
+      background-color: #f8f4f4;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
 
-    <div class="conntainer">
-    <a href="../html/pesquisa.html"><img src="../img/lupa.png" alt="lupa" class="lupa"></a>
-    <a href="../html/perfildousuario.html"><img src="../img/perfil.png" alt="perfil" class="perfil"></a>
-    <a href="../html/carrinho.html"><img src="../img/sacola2.png" alt="sacola" class="sacola"></a>
-    </div>
-		<header>
-			<div class="navbarsup">
-				<a>MORLY'S</a>
-					</div>
-			</div>
-			<div class="subnavbar">
-				<ul>
-					<li><a href="perfumes.html">PERFUMES</a></li>
-					<li><a href="maquiagens.html">MAQUIAGENS</a></li>
-					<li><a href="cabelo&barba.html">CABELO & BARBA</a></li>
-					<li><a href="corpo.html">CORPO</a></li>
-				</ul>
-			</div>
-		</header>
+    .navbar ul {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .navbar ul li a {
+      text-decoration: none;
+      color: black;
+      font-size: 16px;
+    }
+    
+    .navbar ul li a:hover {
+      color: #888;
+    }
+
+    .data-container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 20px;
+      position: relative;
+    }
+    
+    .title {
+      flex-basis: 30%;
+      text-align: center;
+    }
+
+    .title a {
+      color: black;
+      text-decoration: none;
+    }
+
+    .profile {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 30%;
+      align-items: center;
+      padding: 40px 60px 20px;
+    }
+
+    .profile img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .profile h2 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+    
+    .personal-data {
+      flex-basis: 70%;
+      background-color: #f2f2f2;
+      padding: 60px;
+      font-size: 18px;
+      text-align: center;
+    }
+    
+    .personal-data label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    
+    .personal-data input {
+      width: 200px;
+      margin-bottom: 10px;
+    }
+    
+    .center-button {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    
+    .center-button button {
+      padding: 10px 20px;
+      font-size: 20px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+    
+    .center-button button img {
+      width: 16px;
+      height: 16px;
+      margin-right: 5px;
+    }
+
+    .top-right-button {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+    .top-right-button button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body style="background-color: #f8f4f4;">
+  <div class="navbar">
+    <h1 class="page-title"><a href="paginainicial.html"><strong>MORLY'S</strong></a></h1>
+    <ul>
+      <li><a href="perfumes.html">PERFUMES</a></li>
+      <li><a href="maquiagens.html">MAQUIAGENS</a></li>
+      <li><a href="cabelo&barba.html">CABELO & BARBA</a></li>
+      <li><a href="corpo.html">CORPO</a></li>
+      <li><a href="sobre.html">SOBRE</a></li>
+    </ul>
+    <ul>
+      <a href="pesquisa.html"><img src="../html/lupa.png" alt="lupa" class="lupa" width="40px" height="30px"></a>
+      <a href=""><img src="../html/perfil.png" alt="perfil" class="perfil" width="30px" height="30px"></a>
+      <a href="carrinho.html"><img src="../html/sacola.png" alt="sacola" class="sacola" width="30px" height="30px"></a>
+    </ul>
+  </div>
+
+  <div class="data-container">
+    <div class="profile">
+      <img src="perfil.png" alt="Profile Picture" width="200px" height="200px">
+      <h2>Nome do Usuário</h2>
+      <div class="center-button">
+        <button><img src="Sacola3.png.jpg" alt="Ícone de Produto" width="16px" height="16px">Ver Produtos</button>
+      </div>
     </div>
     <div class="personal-data">
       <h1>Dados Pessoais</h1>
@@ -68,7 +189,7 @@
       </form>
     </div>
     <div class="top-right-button">
-    
+      <button>Editar Dados</button>
     </div>
   </div>
 </body>
