@@ -8,6 +8,9 @@
 	<link rel="icon" type="image/x-icon" href="../img/favicon.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 	<title> Finalizar pedido</title>
+
+  <title>Tela de Login</title>
+  
 </head>
 	<body style="background-color: #f8f4f4;">
 	
@@ -16,7 +19,6 @@
     <a href="../html/perfildousuario.html"><img src="../img/perfil.png" alt="perfil" class="perfil"></a>
     <a href="../html/carrinho.html"><img src="../img/sacola2.png" alt="sacola" class="sacola"></a>
     </div>
-
 		<header>
 			<div class="navbarsup">
 				<a>MORLY'S</a>
@@ -31,3 +33,41 @@
 				</ul>
 			</div>
 		</header>
+    <div class="personal-data">
+      <h1>Dados Pessoais</h1>
+      <div>
+        <label for="name">Nome:</label>
+        <br>
+        <input type="text" id="name" name="name" required>
+      </div>
+      
+      <div>
+        <label for="birthdate">Data de Nascimento:</label>
+        <br>
+        <input type="date" id="birthdate" name="birthdate" required>
+      </div>
+      
+      <div>
+        <label for="address">Endereço:</label>
+        <br>
+        <input type="text" id="address" name="address" required>
+      </div>
+      
+      <div>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email" required>
+      </div>
+      
+      <form action="https://api.sheetmonkey.io/form/qJszJ3CsdgnpDvo7RSv8JP" method="post">
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+        <br>
+        <input type="submit" value="Registrar" />
+      </form>
+    </div>
+    <div class="top-right-button">
+      <button>Editar Dados</button>
+    </div>
+  </div>
+</body>
+</html>
