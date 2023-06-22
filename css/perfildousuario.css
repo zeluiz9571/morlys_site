@@ -1,0 +1,148 @@
+*
+{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+.navbarsup{
+text-align: center;
+padding: 20px;
+font-size: 27px;
+border-style: solid;
+border-width: 0px 0px 2px 0px;
+border-color: rgba(223, 220, 220, 0.91); 
+text-decoration:none;
+color: inherit;
+}
+.subnavbar :hover {
+    text-decoration: underline;
+  }
+
+.subnavbar{
+display: flex;
+border-style: solid;
+border-width: 0px 0px 2px 0px;
+border-color: rgba(0, 0, 0, 0.41);
+height: 50px;
+justify-content: center;
+}
+ .subnavbar li{
+float: left;
+padding: 0px 40px;
+} 
+.subnavbar li a{
+display: block;
+color: black;
+text-decoration: none;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.subnavbar ul{
+list-style-type: none;
+margin-right: 70px;
+margin-left: 10px;
+}
+section{
+    background-color: rgba(244, 244, 244, 1);
+}
+.Banner{
+    margin: 100px;
+    margin-top: 100px;
+    margin-left: 70px;
+    height: 200px;
+    width: 1120px;
+    background-color: rgb(170, 170, 170);
+    float: left;
+}
+
+.concluir{
+    margin-left: 50px;
+}
+
+.lupa {
+    height: 20px;
+    width: 30px;
+    /* margin-left: 1135px;
+    margin-bottom: 0px;
+    margin-top: 0px; */
+    position: absolute;
+    top: 25px;
+    right: 300px;
+ }
+ .class{
+    height: 20px;
+    width: 20px;
+    margin-left: 1100px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+ }  
+
+ .perfil{
+    height: 20px;
+    width: 20px;
+    /* margin-left: 1135px;
+    margin-bottom: 0px;
+    margin-top: 0px; */
+    position: absolute;
+    top: 25px;
+    right: 220px;
+ }
+
+ .sacola{
+    height: 20px;
+    width: 30px;
+    position: absolute;
+    top: 25px;
+    right: 260px;
+ }
+ .container {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 2%;
+  background-color: #f8f4f4;
+  
+ }
+
+.personal-data{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px;
+    margin-top: 3%;
+}
+
+.personal-data div {
+    margin-bottom: 5%;
+}
+
+.personal-data input[type="text"],
+.personal-data input[type="date"],
+.personal-data input[type="email"] {
+  padding: 10px;
+  width: 20em;
+}
+/* Estilos para o botão "Registrar" */
+.personal-data input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .personal-data input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Estilos para o botão "Editar Dados" */
+  .top-right-button button {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+
+  

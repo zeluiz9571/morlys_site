@@ -88,6 +88,11 @@ border-color: rgba(0, 0, 0, 0.41);
 height: 50px;
 justify-content: center;
 }
+
+.subnavbar :hover {
+  text-decoration: underline;
+}
+
  .subnavbar li{
 float: left;
 padding: 0px 60px;

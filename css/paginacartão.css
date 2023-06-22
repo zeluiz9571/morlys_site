@@ -14,6 +14,10 @@ border-color: rgba(223, 220, 220, 0.91);
 text-decoration:none;
 color: inherit;
 }
+
+.subnavbar :hover {
+  text-decoration: underline;
+}
 .subnavbar{
 display: flex;
 border-style: solid;

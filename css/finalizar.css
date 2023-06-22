@@ -35,6 +35,10 @@
     padding: 14px 16px;
     text-decoration: none;
   }
+
+  .subnavbar :hover {
+    text-decoration: underline;
+  }
   
   .subnavbar ul {
     list-style-type: none;
