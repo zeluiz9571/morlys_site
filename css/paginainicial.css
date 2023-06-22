@@ -16,6 +16,9 @@ border-style: solid;
 border-width: 0px 0px 2px 0px;
 border-color: rgba(223, 220, 220, 0.91); 
 }
+a {
+    color: black;
+  }
 
 .subnavbar{
 display: flex;
