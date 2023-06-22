@@ -3,6 +3,11 @@ margin: 0;
 padding:0;
 box-sizing: border-box;
 }
+section{
+height: 2200px;
+}
+
+
 .navbarsup{
 text-align: center;
 padding: 20px;
@@ -321,12 +326,16 @@ a:link{
     height: 300px;
     top: 20px;
     right: 0;
- }
- footer {
+}
+
+footer{
+    margin: auto;
+    margin-top: 110px;
     height: 100px;
+    float: inline-start;
     text-align: center;
-  }
-  
-  footer p {
+    font-family: initial;
+}
+footer p{
     padding: 40px;
-  }
+}
