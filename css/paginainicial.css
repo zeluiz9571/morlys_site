@@ -322,7 +322,8 @@ a:link{
     top: 20px;
     right: 0;
  }
- footer{
+ footer {
+    height: 100px;
     text-align: center;
  }
 
@@ -331,3 +332,7 @@ p{
     margin-left: 70px;
     color: black;
 }
+  
+  footer p {
+    padding: 40px;
+  }

@@ -84,12 +84,20 @@
       margin-right: 5px;
     }
 
-    .top-right-text {
+    .top-right-button {
       position: absolute;
       top: 20px;
       right: 20px;
+    }
+
+    .top-right-button button {
+      padding: 10px 20px;
       font-size: 16px;
-      font-weight: bold;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
     }
   </style>
 </head>
@@ -134,7 +142,9 @@
         <input type="submit" value="Registrar" />
       </form>
     </div>
-    <span class="top-right-text">Editar Dados</span>
+    <div class="top-right-button">
+      <button>Editar Dados</button>
+    </div>
   </div>
 </body>
 </html>

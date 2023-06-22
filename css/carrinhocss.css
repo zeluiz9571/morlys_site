@@ -46,7 +46,7 @@
 #botaofinal {
   grid-area: final;
   background-color: #f8f4f4;
-  text-align: right;
+  text-align: center;
   padding: 12px;
   border: 1px solid black;
 }
