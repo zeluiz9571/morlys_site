@@ -11,6 +11,12 @@ font-size: 27px;
 border-style: solid;
 border-width: 0px 0px 2px 0px;
 border-color: rgba(223, 220, 220, 0.91); 
+text-decoration:none;
+color: inherit;
+}
+
+.subnavbar :hover {
+  text-decoration: underline;
 }
 .subnavbar{
 display: flex;
@@ -60,7 +66,7 @@ section{
     /* margin-left: 1135px;
     margin-bottom: 0px;
     margin-top: 0px; */
-    position: fixed;
+    position: absolute;
     top: 25px;
     right: 300px;
  }
@@ -78,7 +84,7 @@ section{
     /* margin-left: 1135px;
     margin-bottom: 0px;
     margin-top: 0px; */
-    position: fixed;
+    position: absolute;
     top: 25px;
     right: 220px;
  }
@@ -86,75 +92,78 @@ section{
  .sacola{
     height: 20px;
     width: 30px;
-    /* margin-left: 1135px;
-    margin-bottom: 0px;
-    margin-top: 0px; */
-    position: fixed;
+    position: absolute;
     top: 25px;
     right: 260px;
  }
-
  .container {
-    position: relative;
-    width: 500px;
-    height: 300px;
-    top: 20px;
-    right: 0;
-  }
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 2%;
+  background-color: #f8f4f4;
+  
+ }
+h1 {
+  text-align: center;
+  margin-bottom: 5%;
+}
 
-  /* body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  } */
 
-  form {
-    max-width: 5px;
-    margin: 10 auto;
-    /* Restante do estilo do formulário aqui */
-  }
+label {
+  display: block;
+  margin-bottom: 2%;
+  font-weight: bold;
+  
+}
+  
+input[type="text"],
+input[type="number"],
+select {
+  width: 75%;
+  padding: 2%;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
 
-  form {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 4px;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    background-color: #ffffff;
-  }
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f4f4;
+  border-radius: 5px;
+}
 
-  label {
-    display: ruby-base;
-    margin-bottom: 10px;
-    font-weight: bolder;
-  }
+.container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
 
-  input[type="text"],
-  select {
-    width: 75%;
-    padding: 10px;
-    border: 1px solid #000000;
-    border-radius: 1px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-    font-size: 16px;
-  }
+.container form label {
+  text-align: left;
+}
 
-  input[type="submit"] {
-    background-color: #ffffff;
-    color: #000000;
-    padding: 10px 148px;
-    border: 1px solid #000000;    
-    border-radius: 3px; 
-    cursor: pointer;
-    font-size: 16px;
-  }
+.container form input[type="text"],
+.container form input[type="number"],
+.container form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-top: 3%;
+}
 
-  input[type="submit"]:hover {
-    background-color: #45a049;
-  }
-
-.dados{
-  left: 50%;
+.container form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5%;
 }
