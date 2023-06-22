@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -34,6 +34,10 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+  }
+
+  .subnavbar :hover {
+    text-decoration: underline;
   }
   
   .subnavbar ul {
