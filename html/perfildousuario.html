@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html>
 <head>
   <title>Tela de Login</title>
@@ -7,6 +7,31 @@
       font-family: 'Inter', sans-serif;
     }
     
+    .navbar {
+      background-color: #f8f4f4;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .navbar ul li a {
+      text-decoration: none;
+      color: black;
+      font-size: 16px;
+    }
+    
+    .navbar ul li a:hover {
+      color: #888;
+    }
+
     .data-container {
       display: flex;
       align-items: flex-start;
@@ -102,12 +127,28 @@
   </style>
 </head>
 <body style="background-color: #f8f4f4;">
+  <div class="navbar">
+    <h1 class="page-title"><strong>Morly's Beauty</strong></h1>
+    <ul>
+      <li><a href="#">Perfumes</a></li>
+      <li><a href="#">Maquiagens</a></li>
+      <li><a href="#">Cabelo e Barba</a></li>
+      <li><a href="#">Corpo</a></li>
+      <li><a href="#">Sobre</a></li>
+    </ul>
+    <div class="profile-icons">
+      <img src="perfil.png" alt="Profile Picture" width="30px" height="30px">
+      <img src="lupa.png" alt="Ícone de Pesquisa" width="30px" height="30px">
+      <img src="sacola.PNG" alt="Ícone de Sacola de Compras" width="30px" height="30px">
+    </div>
+  </div>
+
   <div class="data-container">
     <div class="profile">
-      <img src="perfil.png" alt="Profile Picture">
+      <img src="perfil.png" alt="Profile Picture" width="200px" height="200px">
       <h2>Nome do Usuário</h2>
       <div class="center-button">
-        <button><img src="Sacola3.png.jpg" alt="Ícone de Produto">Ver Produtos</button>
+        <button><img src="Sacola3.png.jpg" alt="Ícone de Produto" width="20px" height="20px">Ver Produtos</button>
       </div>
     </div>
     <div class="personal-data">
