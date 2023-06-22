@@ -108,3 +108,9 @@
    border-top: 5%;
    padding: 5%;
  }
+
+ #linhav {
+   border-left: 1px solid black;
+	height: 100px;
+	margin-right: 20px;
+}
