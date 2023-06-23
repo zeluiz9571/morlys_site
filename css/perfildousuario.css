@@ -23,9 +23,8 @@ text-decoration:none;
 color: inherit;
 }
 .subnavbar :hover {
-    text-decoration: NONE;
-  }
-
+  text-decoration: underline;
+}
 .subnavbar{
 display: flex;
 font-family: 'Inter';
