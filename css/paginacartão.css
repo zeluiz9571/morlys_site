@@ -21,7 +21,7 @@ color: inherit;
 }
 
 .subnavbar :hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 .subnavbar{
   font-family: 'Inter';
