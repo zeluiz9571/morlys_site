@@ -40,11 +40,11 @@ justify-content: center;
 }
  .subnavbar li{
 float: left;
-padding: 0px 30px;
+padding: 0px 40px;
 }
 
 .subnavbar :hover {
-    text-decoration: none;
+    text-decoration: NONE;
   }
 
 .subnavbar li a{
@@ -57,7 +57,7 @@ text-decoration: none;
 }
 .subnavbar ul{
 list-style-type: none;
-margin-right: 37px;
+margin-right: 70px;
 margin-left: 10px;
 }
 .titulo{
