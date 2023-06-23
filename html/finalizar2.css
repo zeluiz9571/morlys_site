@@ -8,12 +8,14 @@
     text-decoration: none;
 }
   .navbarsup {
-    text-align: center;
-    padding: 20px;
-    font-size: 27px;
-    border-style: solid;
-    border-width: 0px 0px 2px 0px;
-    border-color: rgba(223, 220, 220, 0.91);
+    height: 70px;
+  font-family: 'Inter';
+  text-align: center;
+  padding: 20px;
+  font-size: 27px;
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  border-color: rgba(223, 220, 220, 0.91); 
   }
   
   .subnavbar {
@@ -40,7 +42,7 @@
   }
 
   .subnavbar :hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   
   .subnavbar ul {
@@ -306,7 +308,7 @@
   #sauvage{
     position: relative;
     top: 180px;
-    left: -479px;
+    left: -487.5px;
     width: 3.9%;
     
   }
