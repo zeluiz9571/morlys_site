@@ -108,9 +108,16 @@
    border-top: 5%;
    padding: 5%;
  }
+ 
+ .linha-horizontal {
+   border-top: 1px solid black;
+   margin: 0% auto;
+   width: 50%;
+     
+    }
 
- #linhav {
-   border-left: 1px solid black;
-	height: 100px;
-	margin-right: 20px;
+.linha{
+   border-top: 1px solid black;
+   margin: 0% auto;
+   width: 50%;
 }
