@@ -3,8 +3,17 @@ margin: 0;
 padding:0;
 box-sizing: border-box;
 }
+a{
+  color: inherit;
+  text-decoration: none;
+}
+li{
+  color: inherit;
+  text-decoration: none;
+}
 .navbarsup{
 text-align: center;
+font-family: 'Inter';
 padding: 20px;
 font-size: 27px;
 border-style: solid;
@@ -14,11 +23,12 @@ text-decoration:none;
 color: inherit;
 }
 .subnavbar :hover {
-    text-decoration: underline;
+    text-decoration: NONE;
   }
 
 .subnavbar{
 display: flex;
+font-family: 'Inter';
 border-style: solid;
 border-width: 0px 0px 2px 0px;
 border-color: rgba(0, 0, 0, 0.41);
@@ -142,6 +152,11 @@ section{
     border: none;
     cursor: pointer;
   }
+
+  .search-input {
+    display: none;
+}
+
 
 
   
