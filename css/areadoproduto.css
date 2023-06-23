@@ -44,7 +44,7 @@ padding: 0px 40px;
 }
 
 .subnavbar :hover {
-    text-decoration: NONE;
+    text-decoration: underline;
   }
 
 .subnavbar li a{
