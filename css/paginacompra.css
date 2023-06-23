@@ -561,7 +561,7 @@ FORM{
     height: 2000px;
 }
 .Btn {
-    width: 220px;
+    width: 200px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -589,8 +589,8 @@ FORM{
   }
   
   .Btn::before {
-    width: 220px;
-    height: 130px;
+    width: 200px;
+    height: 100px;
     position: absolute;
     content: "";
     background-color: white;
@@ -612,46 +612,14 @@ FORM{
     transition-duration: .3s;
   }
 
- .butao{
-  width: 220px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(15, 15, 15);
-  border: none;
-  color: white;
-  font-weight: 600;
-  gap: 8px;
-  cursor: pointer;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
-  position: relative;
-  overflow: hidden;
-  transition-duration: .3s;
-  margin-top: 10px;
- }
+  #addcarrinho{
+    left: 272%;
+    width: 70%;
+  }
 
- .butao::before {
-  width: 2px;
-  height: 130px;
-  position: absolute;
-  content: "";
-  background-color: white;
-  border-radius: 50%;
-  left: -100%;
-  top: 0;
-  transition-duration: .3s;
-  mix-blend-mode: difference;
-}
-
-.butao:hover::before {
-  transition-duration: .3s;
-  transform: translate(100%,-50%);
-  border-radius: 0;
-}
-
-.butao:active {
-  transform: translate(5px,5px);
-  transition-duration: .3s;
-}
-
+  #mais{
+    margin-left: 41%;
+    padding-left: 28px;
+    width: 200px;
+    /* border-radius: 10%; */
+  }
