@@ -244,7 +244,7 @@
   
   #finalizar{
     position: relative;
-    top: 40px;
+    top: 10px;
     left: 51%;
     font-size: 150%;
   }
@@ -300,13 +300,13 @@
     #perfume{
       position: relative;
       top: 160px;
-      left: -289px;
+      left: -290px;
       font-size: 110%;
   }
   #sauvage{
     position: relative;
     top: 180px;
-    left: -478px;
+    left: -479px;
     width: 3.9%;
     
   }
