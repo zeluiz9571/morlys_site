@@ -283,3 +283,17 @@
     height: 7%;
     width: 17.5%;
     }
+    #maquiagem{
+        position: relative;
+        top: 110px;
+        left: -110px;
+        font-size: 110%;
+    }
+    #primermate{
+      position: relative;
+      top: 130px;
+      left: -300px;
+      width: 3.9%;
+      
+    }
+    
