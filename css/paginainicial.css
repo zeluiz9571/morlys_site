@@ -28,7 +28,7 @@ justify-content: center;
 }
 
 .subnavbar :hover {
-    text-decoration: none;
+    text-decoration: underline;
   }
   
  .subnavbar li{
