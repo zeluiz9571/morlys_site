@@ -6,8 +6,6 @@ box-sizing: border-box;
 section{
 height: 2200px;
 }
-
-
 .navbarsup{
 text-align: center;
 padding: 20px;
@@ -56,8 +54,7 @@ section{
 .Banner{
     margin: 100px;
     margin-top: 30px;
-    margin-left: 70px;
-    height: 200px;
+    margin-left: 80px;
     width: 1120px;
     float: left;
 }
