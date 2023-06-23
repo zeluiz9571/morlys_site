@@ -62,7 +62,13 @@ section{
     background-color: rgb(170, 170, 170);
     float: left;
 }
-
+label{
+  font-family: 'Inter';
+}
+h1{
+  font-family: 'Inter';
+  font-size: 20px;
+}
 .concluir{
     margin-left: 50px;
 }
@@ -108,6 +114,7 @@ section{
   margin: 0 auto;
   padding: 2%;
   background-color: #f8f4f4;
+  font-family: 'Inter';
   
  }
 
