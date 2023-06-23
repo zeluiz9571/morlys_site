@@ -296,4 +296,18 @@
       width: 3.9%;
       
     }
+
+    #perfume{
+      position: relative;
+      top: 160px;
+      left: -289px;
+      font-size: 110%;
+  }
+  #sauvage{
+    position: relative;
+    top: 180px;
+    left: -478px;
+    width: 3.9%;
+    
+  }
     
