@@ -17,6 +17,7 @@
    
    .navbarsup{
    text-align: center;
+   font-family: 'Inter';
    padding: 20px;
    font-size: 27px;
    border-style: solid;
@@ -25,6 +26,7 @@
    }
    .subnavbar{
    display: flex;
+   font-family: 'Inter';
    border-style: solid;
    border-width: 0px 0px 2px 0px;
    border-color: rgba(0, 0, 0, 0.41);
@@ -33,7 +35,7 @@
    }
    
    .subnavbar :hover {
-       text-decoration: underline;
+       text-decoration: none;
      }
      
     .subnavbar li{
