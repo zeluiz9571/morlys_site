@@ -41,7 +41,12 @@ justify-content: center;
  .subnavbar li{
 float: left;
 padding: 0px 30px;
-} 
+}
+
+.subnavbar :hover {
+    text-decoration: underline;
+}
+
 .subnavbar li a{
 display: block;
 color: black;

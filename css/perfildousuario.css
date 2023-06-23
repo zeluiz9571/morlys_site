@@ -153,5 +153,10 @@ section{
     cursor: pointer;
   }
 
+  .search-input {
+    display: none;
+}
+
+
 
   
