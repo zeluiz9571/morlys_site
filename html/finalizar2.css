@@ -244,7 +244,7 @@
   
   #finalizar{
     position: relative;
-    top: 40px;
+    top: 10px;
     left: 51%;
     font-size: 150%;
   }
@@ -283,3 +283,31 @@
     height: 7%;
     width: 17.5%;
     }
+    #maquiagem{
+        position: relative;
+        top: 110px;
+        left: -110px;
+        font-size: 110%;
+    }
+    #primermate{
+      position: relative;
+      top: 130px;
+      left: -300px;
+      width: 3.9%;
+      
+    }
+
+    #perfume{
+      position: relative;
+      top: 160px;
+      left: -290px;
+      font-size: 110%;
+  }
+  #sauvage{
+    position: relative;
+    top: 180px;
+    left: -479px;
+    width: 3.9%;
+    
+  }
+    

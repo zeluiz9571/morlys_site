@@ -12,40 +12,38 @@ li{
   text-decoration: none;
 }
 .navbarsup{
-text-align: center;
-font-family: 'Inter';
-padding: 20px;
-font-size: 27px;
-border-style: solid;
-border-width: 0px 0px 2px 0px;
-border-color: rgba(223, 220, 220, 0.91); 
-text-decoration:none;
-color: inherit;
+  height: 70px;
+  font-family: 'Inter';
+  text-align: center;
+  padding: 20px;
+  font-size: 27px;
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  border-color: rgba(223, 220, 220, 0.91); 
 }
 .subnavbar :hover {
-    text-decoration: NONE;
-  }
-
+  text-decoration: none;
+}
 .subnavbar{
-display: flex;
-font-family: 'Inter';
-border-style: solid;
-border-width: 0px 0px 2px 0px;
-border-color: rgba(0, 0, 0, 0.41);
-height: 50px;
-justify-content: center;
+  font-family: 'Inter';
+  display: flex;
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  border-color: rgba(0, 0, 0, 0.41);
+  height: 50px;
+  justify-content: center;
 }
  .subnavbar li{
 float: left;
 padding: 0px 40px;
 } 
 .subnavbar li a{
-display: block;
-color: black;
-text-decoration: none;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
+  display: block;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 .subnavbar ul{
 list-style-type: none;
@@ -64,7 +62,13 @@ section{
     background-color: rgb(170, 170, 170);
     float: left;
 }
-
+label{
+  font-family: 'Inter';
+}
+h1{
+  font-family: 'Inter';
+  font-size: 20px;
+}
 .concluir{
     margin-left: 50px;
 }
@@ -110,6 +114,7 @@ section{
   margin: 0 auto;
   padding: 2%;
   background-color: #f8f4f4;
+  font-family: 'Inter';
   
  }
 

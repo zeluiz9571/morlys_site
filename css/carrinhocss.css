@@ -5,13 +5,14 @@
 }
 
 .navbarsup {
-  text-align: center;
+  height: 70px;
   font-family: 'Inter';
+  text-align: center;
   padding: 20px;
   font-size: 27px;
   border-style: solid;
-  border-width: 0 0 2px 0;
-  border-color: rgba(223, 220, 220, 0.91);
+  border-width: 0px 0px 2px 0px;
+  border-color: rgba(223, 220, 220, 0.91); 
 }
 h1{
   text-align: center;
@@ -36,18 +37,18 @@ h1{
 
 .subnavbar {
   font-family: 'Inter';
-  display: flex;
-  border-style: solid;
-  border-width: 0 0 2px 0;
-  border-color: rgba(0, 0, 0, 0.41);
-  height: 50px;
-  justify-content: center;
+    display: flex;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: rgba(0, 0, 0, 0.41);
+    height: 50px;
+    justify-content: center;
 }
 
-.subnavbar li {
+.subnavbar li{
   float: left;
-  padding: 0 60px;
-}
+  padding: 0px 40px;
+  } 
 
 .subnavbar :hover {
   text-decoration: none;
